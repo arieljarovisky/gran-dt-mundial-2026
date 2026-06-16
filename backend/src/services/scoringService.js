@@ -7,6 +7,8 @@ import { ensureTeam } from './teamService.js';
 const GOAL_POINTS = { POR: 6, DEF: 6, MED: 5, DEL: 4 };
 const CLEAN_SHEET_POINTS = { POR: 4, DEF: 4 };
 const APPEARANCE_POINTS = 1;
+const YELLOW_CARD_POINTS = -1;
+const RED_CARD_POINTS = -3;
 
 function normalize(str) {
   return str
@@ -56,6 +58,15 @@ function parseScorers(raw) {
         .replace(/\s*\(OG\)\s*$/i, '')
         .trim()
     )
+    .filter(Boolean);
+}
+
+function parseCards(raw) {
+  if (!raw || raw === 'null') return [];
+  return raw
+    .replace(/^\{|\}$/g, '')
+    .split('","')
+    .map((entry) => entry.replace(/^"|"$/g, '').replace(/\s+\d+.*$/, '').trim())
     .filter(Boolean);
 }
 
@@ -172,6 +183,22 @@ export async function calculateMatchdayPoints(userId, matchday, { isLocked, isFi
         const penalty = -conceded;
         playerPoints += penalty;
         events.push({ type: 'goals_conceded', count: conceded, points: penalty });
+      }
+
+      const yellowCards = parseCards(isHome ? game.home_yellow_cards : game.away_yellow_cards);
+      const yellowCount = yellowCards.filter((c) => scorerMatchesPlayer(c, player.name)).length;
+      if (yellowCount > 0) {
+        const pts = yellowCount * YELLOW_CARD_POINTS;
+        playerPoints += pts;
+        events.push({ type: 'yellow_card', count: yellowCount, points: pts });
+      }
+
+      const redCards = parseCards(isHome ? game.home_red_cards : game.away_red_cards);
+      const redCount = redCards.filter((c) => scorerMatchesPlayer(c, player.name)).length;
+      if (redCount > 0) {
+        const pts = redCount * RED_CARD_POINTS;
+        playerPoints += pts;
+        events.push({ type: 'red_card', count: redCount, points: pts });
       }
     }
 

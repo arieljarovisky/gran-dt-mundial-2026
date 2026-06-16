@@ -50,6 +50,13 @@ const GROUPS: RuleGroup[] = [
     note: 'Solo arqueros, por cada gol encajado',
     rows: [{ pos: 'POR', label: 'Arquero', pts: '-1', negative: true }],
   },
+  {
+    title: 'Tarjetas',
+    rows: [
+      { label: 'Tarjeta amarilla', pts: '-1', negative: true },
+      { label: 'Tarjeta roja', pts: '-3', negative: true },
+    ],
+  },
 ];
 
 export default function PointsGuide() {
