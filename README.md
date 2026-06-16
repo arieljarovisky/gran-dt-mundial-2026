@@ -116,9 +116,13 @@ FRONTEND_URL=https://tu-app.vercel.app
 ### 3. Vercel — Frontend
 
 1. **New Project** → GitHub → este repo
-2. **Root Directory** → `frontend`
+2. **Root Directory** → `frontend` ← **obligatorio**
 3. Framework: **Vite** (detectado automáticamente)
-4. **Environment Variables**:
+4. En **Settings → Build & Development**, verificá que **Install Command** y **Build Command** estén vacíos (usa `frontend/vercel.json`) o sean:
+   - Install: `npm install`
+   - Build: `npm run build`
+   - Output: `dist`
+5. **Environment Variables**:
 
 ```
 VITE_API_URL=https://tu-backend.up.railway.app
