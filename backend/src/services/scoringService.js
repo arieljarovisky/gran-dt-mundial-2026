@@ -1,6 +1,6 @@
 import pool from '../db/connection.js';
 import { getAllPlayers } from './playersBuilder.js';
-import { getGames, getTeams } from './worldcupApi.js';
+import { TEAM_IDS, getMatchdayGames } from './apiFootballService.js';
 import { ACTIVE_MATCHDAY, getMatchdaySchedule } from './matchdayService.js';
 import { ensureTeam } from './teamService.js';
 
@@ -44,36 +44,6 @@ export function scorerMatchesPlayer(scorer, playerName) {
   return sTok.some((st) => pTok.some((pt) => pt.length > 3 && st.length > 3 && (pt === st || pt.includes(st) || st.includes(pt))));
 }
 
-function parseScorers(raw) {
-  if (!raw || raw === 'null') return [];
-
-  return raw
-    .replace(/^\{|\}$/g, '')
-    .split('","')
-    .map((entry) =>
-      entry
-        .replace(/^"|"$/g, '')
-        .replace(/\s+\d+.*$/, '')
-        .replace(/\s*\(p\)\s*$/i, '')
-        .replace(/\s*\(OG\)\s*$/i, '')
-        .trim()
-    )
-    .filter(Boolean);
-}
-
-function parseCards(raw) {
-  if (!raw || raw === 'null') return [];
-  return raw
-    .replace(/^\{|\}$/g, '')
-    .split('","')
-    .map((entry) => entry.replace(/^"|"$/g, '').replace(/\s+\d+.*$/, '').trim())
-    .filter(Boolean);
-}
-
-async function buildTeamCodeToApiId() {
-  const teams = await getTeams();
-  return new Map(teams.map((t) => [t.fifa_code, String(t.id)]));
-}
 
 async function getLiveSquad(userId) {
   await ensureTeam(userId);
@@ -139,62 +109,66 @@ export async function calculateMatchdayPoints(userId, matchday, { isLocked, isFi
   const squadRows = await getSquadForMatchday(userId, matchday, { isLocked });
   const allPlayers = await getAllPlayers();
   const playerMap = new Map(allPlayers.map((p) => [p.id, p]));
-  const teamIdMap = await buildTeamCodeToApiId();
 
   const squad = squadRows
     .filter((r) => r.player_id)
     .map((r) => ({ ...r, player: playerMap.get(r.player_id) }))
     .filter((r) => r.player);
 
-  const games = (await getGames()).filter((g) => Number(g.matchday) === Number(matchday));
+  let games = [];
+  try {
+    games = await getMatchdayGames(matchday);
+  } catch (err) {
+    console.error('[scoring] Error fetching API-Football games:', err.message);
+  }
+
   const breakdown = [];
   let total = 0;
 
   for (const slot of squad) {
     const player = slot.player;
-    const apiTeamId = teamIdMap.get(player.teamCode);
+    const playerTeamApiId = TEAM_IDS[player.teamCode];
     let playerPoints = 0;
     const events = [];
 
     for (const game of games) {
-      if (game.finished !== 'TRUE') continue;
-
-      const isHome = String(game.home_team_id) === apiTeamId;
-      const isAway = String(game.away_team_id) === apiTeamId;
+      const isHome = game.homeApiId === playerTeamApiId;
+      const isAway = game.awayApiId === playerTeamApiId;
       if (!isHome && !isAway) continue;
 
       events.push({ type: 'appearance', points: APPEARANCE_POINTS });
       playerPoints += APPEARANCE_POINTS;
 
-      const scorers = parseScorers(isHome ? game.home_scorers : game.away_scorers);
-      const goals = scorers.filter((s) => scorerMatchesPlayer(s, player.name)).length;
-
-      if (goals > 0) {
-        const pts = goals * GOAL_POINTS[player.position];
+      const goalEvents = game.events.filter(
+        (e) => e.type === 'goal' && e.teamApiId === playerTeamApiId && scorerMatchesPlayer(e.playerName, player.name)
+      );
+      if (goalEvents.length > 0) {
+        const pts = goalEvents.length * GOAL_POINTS[player.position];
         playerPoints += pts;
-        events.push({ type: 'goal', count: goals, points: pts });
+        events.push({ type: 'goal', count: goalEvents.length, points: pts });
       }
 
-      const conceded = isHome ? Number(game.away_score) : Number(game.home_score);
+      const conceded = isHome ? game.awayScore : game.homeScore;
       if (conceded === 0 && CLEAN_SHEET_POINTS[player.position]) {
         playerPoints += CLEAN_SHEET_POINTS[player.position];
         events.push({ type: 'clean_sheet', points: CLEAN_SHEET_POINTS[player.position] });
       } else if (player.position === 'POR' && conceded > 0) {
-        const penalty = -conceded;
-        playerPoints += penalty;
-        events.push({ type: 'goals_conceded', count: conceded, points: penalty });
+        playerPoints += -conceded;
+        events.push({ type: 'goals_conceded', count: conceded, points: -conceded });
       }
 
-      const yellowCards = parseCards(isHome ? game.home_yellow_cards : game.away_yellow_cards);
-      const yellowCount = yellowCards.filter((c) => scorerMatchesPlayer(c, player.name)).length;
+      const yellowCount = game.events.filter(
+        (e) => e.type === 'yellow_card' && e.teamApiId === playerTeamApiId && scorerMatchesPlayer(e.playerName, player.name)
+      ).length;
       if (yellowCount > 0) {
         const pts = yellowCount * YELLOW_CARD_POINTS;
         playerPoints += pts;
         events.push({ type: 'yellow_card', count: yellowCount, points: pts });
       }
 
-      const redCards = parseCards(isHome ? game.home_red_cards : game.away_red_cards);
-      const redCount = redCards.filter((c) => scorerMatchesPlayer(c, player.name)).length;
+      const redCount = game.events.filter(
+        (e) => e.type === 'red_card' && e.teamApiId === playerTeamApiId && scorerMatchesPlayer(e.playerName, player.name)
+      ).length;
       if (redCount > 0) {
         const pts = redCount * RED_CARD_POINTS;
         playerPoints += pts;
