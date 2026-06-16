@@ -16,13 +16,17 @@ dotenv.config({ path: path.join(__dirname, '../.env') });
 const app = express();
 
 function getAllowedOrigins() {
-  const origins = [
+  const fromEnv = [
+    process.env.FRONTEND_URL,
     process.env.CORS_ORIGIN,
     process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null,
     process.env.VERCEL_BRANCH_URL ? `https://${process.env.VERCEL_BRANCH_URL}` : null,
-  ].filter(Boolean);
+  ]
+    .filter(Boolean)
+    .flatMap((value) => value.split(',').map((origin) => origin.trim()))
+    .filter(Boolean);
 
-  return origins.length > 0 ? origins : true;
+  return fromEnv.length > 0 ? fromEnv : true;
 }
 
 app.use(cors({ origin: getAllowedOrigins() }));

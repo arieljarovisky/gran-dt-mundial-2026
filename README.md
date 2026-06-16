@@ -78,54 +78,62 @@ npm run dev
 | `npm run db:setup` | Tablas MySQL para fantasy |
 | `npm run build` | Build del frontend |
 
-## Deploy en Vercel + Railway MySQL
+## Deploy: Frontend (Vercel) + Backend (Railway)
 
-| Servicio | Dónde |
-|----------|-------|
-| Frontend + API | Vercel |
-| MySQL | Railway |
+| Servicio | Plataforma | Root Directory |
+|----------|------------|----------------|
+| Frontend (PWA) | Vercel | `frontend` |
+| Backend (API) | Railway | `backend` |
+| MySQL | Railway | servicio aparte |
 
-### 0. Vercel — Root Directory
+### 1. Railway — MySQL (ya creado)
 
-En Vercel → **Project Settings → General → Root Directory**:
-
-- Debe estar **vacío** (raíz del repo), **no** `frontend` ni `backend`
-- Si apunta a `frontend`, el build falla con `Missing script: "install:all"`
-
-### 1. Railway — copiar credenciales
-
-1. Entrá a [railway.app](https://railway.app) → tu proyecto → servicio **MySQL**
-2. Pestaña **Variables** (o **Connect**)
-3. Copiá **`MYSQL_PUBLIC_URL`** (la URL pública, no la interna)
-
-### 2. Configurar local (`backend/.env`)
-
-```env
-MYSQL_PUBLIC_URL=mysql://root:xxxx@xxxx.railway.app:port/railway
-```
-
-Comentá o borrá las líneas `DB_HOST=localhost` si usás Railway.
-
-### 3. Crear tablas en Railway
+1. Servicio **MySQL** → **Variables** → copiá `MYSQL_PUBLIC_URL`
+2. Desde tu PC, creá las tablas:
 
 ```bash
+# backend/.env con MYSQL_PUBLIC_URL
 npm run db:setup
 ```
 
-### 4. Vercel — mismas variables
+### 2. Railway — Backend (nuevo servicio)
 
-En Vercel → **Settings → Environment Variables**, agregá:
+1. Mismo proyecto Railway → **New** → **GitHub Repo** → este repo
+2. **Settings → Root Directory** → `backend`
+3. **Variables** del servicio backend:
 
 ```
-MYSQL_PUBLIC_URL = (la misma URL de Railway)
-WORLDCUP_API_URL = http://worldcup26.ir:3050
-CURRENT_MATCHDAY = 2
+MYSQL_URL=${{MySQL.MYSQL_URL}}
+WORLDCUP_API_URL=http://worldcup26.ir:3050
+CURRENT_MATCHDAY=2
+FRONTEND_URL=https://tu-app.vercel.app
 ```
 
-Redeploy en Vercel.
+> `MYSQL_URL` referencia el servicio MySQL interno (más rápido). Para `db:setup` local usá `MYSQL_PUBLIC_URL`.
 
-### Notas Railway
+4. Deploy → copiá la URL pública del backend (ej. `https://gran-dt-backend.up.railway.app`)
 
-- Usá **`MYSQL_PUBLIC_URL`** para conexiones desde Vercel y tu PC
-- SSL se activa automáticamente en hosts remotos
-- La base `railway` ya existe; no hace falta crearla manualmente
+### 3. Vercel — Frontend
+
+1. **New Project** → GitHub → este repo
+2. **Root Directory** → `frontend`
+3. Framework: **Vite** (detectado automáticamente)
+4. **Environment Variables**:
+
+```
+VITE_API_URL=https://tu-backend.up.railway.app
+```
+
+5. Deploy
+
+### 4. CORS — conectar ambos
+
+En Railway (backend), actualizá `FRONTEND_URL` con la URL real de Vercel y redeployá el backend.
+
+### Desarrollo local
+
+```env
+# frontend/.env — vacío o sin VITE_API_URL (usa proxy Vite → :3001)
+# backend/.env — MySQL local o MYSQL_PUBLIC_URL
+CORS_ORIGIN=http://localhost:3000
+```
