@@ -3,6 +3,7 @@ import MyTeam from './components/MyTeam';
 import Market from './components/Market';
 import Tournaments from './components/Tournaments';
 import MatchdayBanner from './components/MatchdayBanner';
+import PointsGuide from './components/PointsGuide';
 import AppShell from './components/AppShell';
 import InstallPrompt from './components/InstallPrompt';
 import AuthScreen from './components/AuthScreen';
@@ -105,6 +106,8 @@ function MainApp() {
                 onRemovePlayer={removePlayer}
                 canEdit={canEditSquad}
               />
+
+              <PointsGuide />
             </motion.div>
           ) : (
             <motion.div
