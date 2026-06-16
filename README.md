@@ -78,26 +78,47 @@ npm run dev
 | `npm run db:setup` | Tablas MySQL para fantasy |
 | `npm run build` | Build del frontend |
 
-## Deploy en Vercel
+## Deploy en Vercel + Railway MySQL
 
-El proyecto incluye `vercel.json` para desplegar **frontend + backend** en un solo proyecto:
+| Servicio | Dónde |
+|----------|-------|
+| Frontend + API | Vercel |
+| MySQL | Railway |
 
-| Servicio | Cómo se despliega |
-|----------|-------------------|
-| Frontend (PWA) | Build estático → `frontend/dist` |
-| Backend (API) | Serverless → `api/index.js` → Express |
+### 1. Railway — copiar credenciales
 
-### Pasos
+1. Entrá a [railway.app](https://railway.app) → tu proyecto → servicio **MySQL**
+2. Pestaña **Variables** (o **Connect**)
+3. Copiá **`MYSQL_PUBLIC_URL`** (la URL pública, no la interna)
 
-1. Subí el repo a GitHub y conectalo en [vercel.com](https://vercel.com)
-2. Vercel detecta `vercel.json` automáticamente (root directory: `.`)
-3. Configurá las variables de entorno (ver `.env.vercel.example`):
-   - `DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME` → MySQL en la nube
-   - `WORLDCUP_API_URL`, `CURRENT_MATCHDAY`
-4. Deploy
+### 2. Configurar local (`backend/.env`)
 
-### Notas
+```env
+MYSQL_PUBLIC_URL=mysql://root:xxxx@xxxx.railway.app:port/railway
+```
 
-- MySQL local **no funciona** en Vercel; usá PlanetScale, Railway, Aiven u otro host remoto
-- La API queda en el mismo dominio: `/api/health`, `/api/players`, etc.
-- El frontend llama a `/api/*` sin proxy (mismo origen en producción)
+Comentá o borrá las líneas `DB_HOST=localhost` si usás Railway.
+
+### 3. Crear tablas en Railway
+
+```bash
+npm run db:setup
+```
+
+### 4. Vercel — mismas variables
+
+En Vercel → **Settings → Environment Variables**, agregá:
+
+```
+MYSQL_PUBLIC_URL = (la misma URL de Railway)
+WORLDCUP_API_URL = http://worldcup26.ir:3050
+CURRENT_MATCHDAY = 2
+```
+
+Redeploy en Vercel.
+
+### Notas Railway
+
+- Usá **`MYSQL_PUBLIC_URL`** para conexiones desde Vercel y tu PC
+- SSL se activa automáticamente en hosts remotos
+- La base `railway` ya existe; no hace falta crearla manualmente

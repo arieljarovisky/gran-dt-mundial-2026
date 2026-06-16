@@ -4,26 +4,35 @@ import { fileURLToPath } from 'url';
 import mysql from 'mysql2/promise';
 import dotenv from 'dotenv';
 import { INITIAL_SLOTS, INITIAL_BUDGET } from '../services/teamService.js';
+import { getDbConfig, getDbName, isRailwayDb } from './config.js';
 
 dotenv.config();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function setup() {
-  const dbName = process.env.DB_NAME || 'gran_dt_mundial';
+  const dbName = getDbName();
+  const useRailway = isRailwayDb();
 
-  const connection = await mysql.createConnection({
-    host: process.env.DB_HOST || 'localhost',
-    port: Number(process.env.DB_PORT) || 3306,
-    user: process.env.DB_USER || 'root',
-    password: process.env.DB_PASSWORD || '',
-    multipleStatements: true,
-  });
+  let connection;
 
-  await connection.query(
-    `CREATE DATABASE IF NOT EXISTS \`${dbName}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci`
-  );
-  await connection.query(`USE \`${dbName}\``);
+  if (useRailway) {
+    connection = await mysql.createConnection({
+      ...getDbConfig(),
+      multipleStatements: true,
+    });
+    console.log(`Conectado a Railway MySQL (${dbName})...`);
+  } else {
+    connection = await mysql.createConnection({
+      ...getDbConfig({ withDatabase: false }),
+      multipleStatements: true,
+    });
+    await connection.query(
+      `CREATE DATABASE IF NOT EXISTS \`${dbName}\` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci`
+    );
+    await connection.query(`USE \`${dbName}\``);
+    console.log(`Base de datos local "${dbName}" creada/verificada.`);
+  }
 
   const schema = fs.readFileSync(path.join(__dirname, 'schema.sql'), 'utf8');
   await connection.query(schema);
@@ -44,7 +53,7 @@ async function setup() {
     );
   }
 
-  console.log(`Base de datos "${dbName}" lista.`);
+  console.log('Tablas listas: fantasy_teams, team_slots, tournaments, matchday_squads, matchday_scores');
   await connection.end();
 }
 
