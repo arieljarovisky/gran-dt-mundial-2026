@@ -10,7 +10,7 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['pwa-icon.svg'],
+      includeAssets: ['apple-touch-icon.png', 'pwa-icon-512.png', 'pwa-icon.svg'],
       manifest: {
         name: 'Gran DT Mundial 2026',
         short_name: 'Gran DT 26',
@@ -25,21 +25,27 @@ export default defineConfig({
         categories: ['games', 'sports'],
         icons: [
           {
-            src: '/pwa-icon.svg',
-            sizes: '512x512',
-            type: 'image/svg+xml',
+            src: '/apple-touch-icon.png',
+            sizes: '180x180',
+            type: 'image/png',
             purpose: 'any',
           },
           {
-            src: '/pwa-icon.svg',
+            src: '/pwa-icon-512.png',
             sizes: '512x512',
-            type: 'image/svg+xml',
+            type: 'image/png',
+            purpose: 'any',
+          },
+          {
+            src: '/pwa-icon-512.png',
+            sizes: '512x512',
+            type: 'image/png',
             purpose: 'maskable',
           },
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,ico,svg,woff2}'],
+        globPatterns: ['**/*.{js,css,html,ico,png,svg,woff2}'],
         runtimeCaching: [
           {
             urlPattern: /^\/api\//,
