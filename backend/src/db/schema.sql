@@ -1,11 +1,20 @@
+CREATE TABLE IF NOT EXISTS users (
+  id VARCHAR(36) PRIMARY KEY,
+  email VARCHAR(255) NOT NULL UNIQUE,
+  password_hash VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
 CREATE TABLE IF NOT EXISTS fantasy_teams (
-  user_id VARCHAR(50) PRIMARY KEY,
+  user_id VARCHAR(36) PRIMARY KEY,
+  team_name VARCHAR(80) NOT NULL DEFAULT 'Mi Equipo',
   budget INT NOT NULL DEFAULT 100000000,
-  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
 
 CREATE TABLE IF NOT EXISTS team_slots (
-  user_id VARCHAR(50) NOT NULL,
+  user_id VARCHAR(36) NOT NULL,
   slot_id VARCHAR(10) NOT NULL,
   position ENUM('POR', 'DEF', 'MED', 'DEL') NOT NULL,
   player_id VARCHAR(30) NULL,
@@ -17,14 +26,14 @@ CREATE TABLE IF NOT EXISTS tournaments (
   id VARCHAR(36) PRIMARY KEY,
   name VARCHAR(100) NOT NULL,
   invite_code VARCHAR(8) NOT NULL UNIQUE,
-  creator_user_id VARCHAR(50) NOT NULL,
+  creator_user_id VARCHAR(36) NOT NULL,
   max_members INT NOT NULL DEFAULT 20,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 CREATE TABLE IF NOT EXISTS tournament_members (
   tournament_id VARCHAR(36) NOT NULL,
-  user_id VARCHAR(50) NOT NULL,
+  user_id VARCHAR(36) NOT NULL,
   display_name VARCHAR(50) NOT NULL,
   joined_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (tournament_id, user_id),
@@ -32,7 +41,7 @@ CREATE TABLE IF NOT EXISTS tournament_members (
 );
 
 CREATE TABLE IF NOT EXISTS matchday_squads (
-  user_id VARCHAR(50) NOT NULL,
+  user_id VARCHAR(36) NOT NULL,
   matchday INT NOT NULL,
   slot_id VARCHAR(10) NOT NULL,
   position ENUM('POR', 'DEF', 'MED', 'DEL') NOT NULL,
@@ -42,7 +51,7 @@ CREATE TABLE IF NOT EXISTS matchday_squads (
 );
 
 CREATE TABLE IF NOT EXISTS matchday_scores (
-  user_id VARCHAR(50) NOT NULL,
+  user_id VARCHAR(36) NOT NULL,
   matchday INT NOT NULL,
   points INT NOT NULL DEFAULT 0,
   breakdown JSON,

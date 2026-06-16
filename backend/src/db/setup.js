@@ -3,12 +3,33 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import mysql from 'mysql2/promise';
 import dotenv from 'dotenv';
-import { INITIAL_SLOTS, INITIAL_BUDGET } from '../services/teamService.js';
 import { getDbConfig, getDbName, isRailwayDb } from './config.js';
 
 dotenv.config();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+async function runMigration(connection, sql, ignoreCode) {
+  try {
+    await connection.query(sql);
+  } catch (error) {
+    if (error.code !== ignoreCode) throw error;
+  }
+}
+
+async function migrate(connection) {
+  await runMigration(
+    connection,
+    `ALTER TABLE fantasy_teams ADD COLUMN team_name VARCHAR(80) NOT NULL DEFAULT 'Mi Equipo'`,
+    'ER_DUP_FIELDNAME'
+  );
+
+  await runMigration(
+    connection,
+    `ALTER TABLE users MODIFY COLUMN password_hash VARCHAR(255) NOT NULL`,
+    'ER_BAD_FIELD_ERROR'
+  );
+}
 
 async function setup() {
   const dbName = getDbName();
@@ -36,24 +57,9 @@ async function setup() {
 
   const schema = fs.readFileSync(path.join(__dirname, 'schema.sql'), 'utf8');
   await connection.query(schema);
+  await migrate(connection);
 
-  const defaultUserId = 'default';
-  await connection.query(
-    `INSERT INTO fantasy_teams (user_id, budget) VALUES (?, ?)
-     ON DUPLICATE KEY UPDATE budget = budget`,
-    [defaultUserId, INITIAL_BUDGET]
-  );
-
-  for (const slot of INITIAL_SLOTS) {
-    await connection.query(
-      `INSERT INTO team_slots (user_id, slot_id, position, player_id)
-       VALUES (?, ?, ?, NULL)
-       ON DUPLICATE KEY UPDATE position = VALUES(position)`,
-      [defaultUserId, slot.id, slot.position]
-    );
-  }
-
-  console.log('Tablas listas: fantasy_teams, team_slots, tournaments, matchday_squads, matchday_scores');
+  console.log('Tablas listas: users, fantasy_teams, team_slots, tournaments, matchday_squads, matchday_scores');
   await connection.end();
 }
 

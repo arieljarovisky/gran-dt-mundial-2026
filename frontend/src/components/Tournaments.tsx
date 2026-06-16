@@ -7,9 +7,8 @@ import {
   joinTournament,
   fetchTournament,
   fetchTournamentStandings,
-  getDisplayName,
-  setDisplayName,
 } from '../api/client';
+import { useAuth } from '../context/AuthContext';
 import { TournamentDetail, TournamentSummary, TournamentStandings } from '../types';
 import { formatMoney } from '../utils';
 import MatchdayBanner from './MatchdayBanner';
@@ -24,6 +23,8 @@ function RankIcon({ rank }: { rank: number }) {
 }
 
 export default function Tournaments() {
+  const { user } = useAuth();
+  const displayName = user?.teamName || 'Mi Equipo';
   const [view, setView] = useState<View>('list');
   const [tournaments, setTournaments] = useState<TournamentSummary[]>([]);
   const [selected, setSelected] = useState<TournamentDetail | null>(null);
@@ -33,7 +34,6 @@ export default function Tournaments() {
   const [copied, setCopied] = useState(false);
   const [createName, setCreateName] = useState('');
   const [joinCode, setJoinCode] = useState('');
-  const [displayName, setDisplayNameState] = useState(getDisplayName());
   const [submitting, setSubmitting] = useState(false);
 
   const loadList = async () => {
@@ -69,7 +69,6 @@ export default function Tournaments() {
     setSubmitting(true);
     setError(null);
     try {
-      setDisplayName(displayName);
       const tournament = await createTournament({ name: createName, displayName });
       setCreateName('');
       setSelected(tournament);
@@ -87,7 +86,6 @@ export default function Tournaments() {
     setSubmitting(true);
     setError(null);
     try {
-      setDisplayName(displayName);
       const tournament = await joinTournament({ inviteCode: joinCode, displayName });
       setJoinCode('');
       setSelected(tournament);
@@ -263,7 +261,9 @@ export default function Tournaments() {
             <Trophy size={17} />
             <h3 className="font-bold text-sm">Crear torneo</h3>
           </div>
-          <input className="input-field text-sm" placeholder="Tu nombre" value={displayName} onChange={(e) => setDisplayNameState(e.target.value)} required minLength={2} />
+          <p className="text-xs text-gray-500">
+            Crearás el torneo como <span className="text-amber-400 font-semibold">{displayName}</span>
+          </p>
           <input className="input-field text-sm" placeholder="Nombre del torneo" value={createName} onChange={(e) => setCreateName(e.target.value)} required minLength={3} />
           <button type="submit" disabled={submitting} className="btn-primary w-full py-2.5 text-sm">
             {submitting ? 'Creando...' : 'Crear torneo'}
@@ -275,7 +275,7 @@ export default function Tournaments() {
             <Users size={17} />
             <h3 className="font-bold text-sm">Unirse con código</h3>
           </div>
-          <input className="input-field text-sm" placeholder="Tu nombre" value={displayName} onChange={(e) => setDisplayNameState(e.target.value)} required minLength={2} />
+          <p className="text-xs text-gray-500">Participarás como <span className="text-amber-400 font-semibold">{displayName}</span></p>
           <input className="input-field text-sm font-mono tracking-widest uppercase" placeholder="ABC123" value={joinCode} onChange={(e) => setJoinCode(e.target.value.toUpperCase())} required minLength={4} />
           <button type="submit" disabled={submitting} className="btn-ghost w-full py-2.5 text-sm">
             {submitting ? 'Uniéndose...' : 'Unirse'}

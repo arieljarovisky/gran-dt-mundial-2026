@@ -1,12 +1,9 @@
 import { Router } from 'express';
 import { getMatchdayInfo, getMatchdaySchedule, ACTIVE_MATCHDAY } from '../services/matchdayService.js';
 import { getUserStandings } from '../services/scoringService.js';
+import { requireAuth } from '../middleware/auth.js';
 
 const router = Router();
-
-function getUserId(req) {
-  return req.headers['x-user-id'] || 'default';
-}
 
 router.get('/current', async (_req, res, next) => {
   try {
@@ -26,9 +23,9 @@ router.get('/schedule', async (_req, res, next) => {
   }
 });
 
-router.get('/my-scores', async (req, res, next) => {
+router.get('/my-scores', requireAuth, async (req, res, next) => {
   try {
-    const scores = await getUserStandings(getUserId(req));
+    const scores = await getUserStandings(req.userId);
     res.json(scores);
   } catch (error) {
     next(error);

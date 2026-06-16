@@ -5,13 +5,16 @@ import Tournaments from './components/Tournaments';
 import MatchdayBanner from './components/MatchdayBanner';
 import AppShell from './components/AppShell';
 import InstallPrompt from './components/InstallPrompt';
+import AuthScreen from './components/AuthScreen';
+import { useAuth } from './context/AuthContext';
 import { useFantasyTeam } from './hooks/useFantasyTeam';
 import { motion, AnimatePresence } from 'motion/react';
 import { Player } from './types';
 
 type Tab = 'team' | 'tournaments';
 
-export default function App() {
+function MainApp() {
+  const { user, logout, updateTeamName } = useAuth();
   const { slots, budget, matchday, canEditSquad, loading, error, addPlayer, removePlayer, resetTeam, reload } =
     useFantasyTeam();
   const [tab, setTab] = useState<Tab>('team');
@@ -72,6 +75,10 @@ export default function App() {
         budget={budget}
         canEditSquad={canEditSquad}
         onReset={resetTeam}
+        teamName={user?.teamName}
+        email={user?.email}
+        onUpdateTeamName={updateTeamName}
+        onLogout={logout}
       >
         <AnimatePresence mode="wait">
           {tab === 'team' ? (
@@ -84,7 +91,7 @@ export default function App() {
               className="space-y-4 md:space-y-6"
             >
               <div className="space-y-1">
-                <h2 className="text-xl md:text-2xl font-extrabold text-white">Tu Equipo</h2>
+                <h2 className="text-xl md:text-2xl font-extrabold text-white">{user?.teamName}</h2>
                 <p className="text-gray-500 text-sm">
                   Fecha {matchday?.matchday ?? 2} · Tocá un puesto vacío para fichar
                 </p>
@@ -130,4 +137,22 @@ export default function App() {
       </AnimatePresence>
     </>
   );
+}
+
+export default function App() {
+  const { user, loading } = useAuth();
+
+  if (loading) {
+    return (
+      <div className="app-bg min-h-dvh flex flex-col items-center justify-center gap-4">
+        <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center font-black text-2xl text-black animate-pulse">
+          DT
+        </div>
+      </div>
+    );
+  }
+
+  if (!user) return <AuthScreen />;
+
+  return <MainApp />;
 }

@@ -18,11 +18,11 @@ export const INITIAL_SLOTS = [
   { id: 'fwd2', position: 'DEL' },
 ];
 
-export async function ensureTeam(userId) {
+export async function ensureTeam(userId, teamName = 'Mi Equipo') {
   await pool.query(
-    `INSERT INTO fantasy_teams (user_id, budget) VALUES (?, ?)
+    `INSERT INTO fantasy_teams (user_id, team_name, budget) VALUES (?, ?, ?)
      ON DUPLICATE KEY UPDATE user_id = user_id`,
-    [userId, INITIAL_BUDGET]
+    [userId, teamName.trim() || 'Mi Equipo', INITIAL_BUDGET]
   );
 
   for (const slot of INITIAL_SLOTS) {
@@ -39,7 +39,7 @@ export async function getTeam(userId) {
   await ensureTeam(userId);
 
   const [[team]] = await pool.query(
-    'SELECT user_id, budget FROM fantasy_teams WHERE user_id = ?',
+    'SELECT user_id, team_name, budget FROM fantasy_teams WHERE user_id = ?',
     [userId]
   );
 
@@ -75,10 +75,21 @@ export async function getTeam(userId) {
 
   return {
     userId: team.user_id,
+    teamName: team.team_name || 'Mi Equipo',
     budget: team.budget,
     slots: enriched,
     matchday: await getMatchdayInfo(),
   };
+}
+
+export async function updateTeamName(userId, teamName) {
+  const trimmed = teamName?.trim();
+  if (!trimmed || trimmed.length < 2) {
+    throw Object.assign(new Error('El nombre del equipo debe tener al menos 2 caracteres.'), {
+      status: 400,
+    });
+  }
+  await pool.query('UPDATE fantasy_teams SET team_name = ? WHERE user_id = ?', [trimmed, userId]);
 }
 
 export async function addPlayerToSlot(userId, slotId, playerId) {

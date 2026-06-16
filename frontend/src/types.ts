@@ -19,13 +19,6 @@ export interface LineupSlot {
   player: Player | null;
 }
 
-export interface TeamResponse {
-  userId: string;
-  budget: number;
-  slots: LineupSlot[];
-  matchday?: MatchdayInfo;
-}
-
 export interface MatchdayInfo {
   matchday: number;
   activeMatchday: number;
@@ -37,6 +30,25 @@ export interface MatchdayInfo {
   finishedCount: number;
   canEditSquad: boolean;
   msUntilLock: number;
+}
+
+export interface TeamResponse {
+  userId: string;
+  teamName: string;
+  budget: number;
+  slots: LineupSlot[];
+  matchday?: MatchdayInfo;
+}
+
+export interface AuthUser {
+  id: string;
+  email: string;
+  teamName: string;
+}
+
+export interface AuthResponse {
+  token: string;
+  user: AuthUser;
 }
 
 export interface StandingEntry {
