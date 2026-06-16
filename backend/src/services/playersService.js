@@ -22,9 +22,10 @@ export async function getPlayers({ position, search, teamCode } = {}) {
   }
 
   return players
-    .map(({ id, name, country, teamCode, position, price, points, flag, teamId, group }) => ({
+    .map(({ id, name, shirtName, country, teamCode, position, price, points, flag, teamId, group }) => ({
       id,
       name,
+      shirtName: shirtName ?? name,
       country,
       teamCode,
       position,

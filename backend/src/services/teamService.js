@@ -61,6 +61,7 @@ export async function getTeam(userId) {
           ? {
               id: player.id,
               name: player.name,
+              shirtName: player.shirtName ?? player.name,
               country: player.country,
               teamCode: player.teamCode,
               position: player.position,
