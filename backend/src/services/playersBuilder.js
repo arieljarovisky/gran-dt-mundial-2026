@@ -21,6 +21,7 @@ function enrichWithApiData(squadPlayers, teams) {
     return {
       id: player.id,
       name: player.name,
+      shirtName: player.shirtName ?? player.name,
       country: team?.name_en || player.country,
       teamCode: player.teamCode,
       position: player.position,
@@ -44,6 +45,7 @@ export async function buildPlayersCatalog() {
     return squadPlayers.map((player) => ({
       id: player.id,
       name: player.name,
+      shirtName: player.shirtName ?? player.name,
       country: player.country,
       teamCode: player.teamCode,
       position: player.position,

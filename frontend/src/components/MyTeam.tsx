@@ -69,7 +69,7 @@ export default function MyTeam({ slots, onSelectSlot, onRemovePlayer, canEdit = 
               {slot.position}
             </span>
             <p className="text-[9px] sm:text-[10px] font-bold text-white text-center leading-tight mt-0.5 line-clamp-2 w-full px-0.5">
-              {slot.player.name.split(' ').slice(-2).join(' ')}
+              {slot.player.shirtName}
             </p>
             <p className="text-[8px] sm:text-[9px] text-amber-500/80 font-mono">{formatMoney(slot.player.price)}</p>
           </>

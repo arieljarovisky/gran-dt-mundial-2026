@@ -156,7 +156,7 @@ export default function Market({ onClose, targetPosition, onSelectPlayer, curren
                     />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <p className="font-bold text-white text-sm truncate">{player.name}</p>
+                    <p className="font-bold text-white text-sm truncate">{player.shirtName}</p>
                     <p className="text-[11px] text-gray-500 mt-0.5">
                       {player.country} · <span className="text-gray-400 font-semibold">{player.position}</span>
                     </p>

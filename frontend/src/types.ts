@@ -3,6 +3,7 @@ export type Position = 'POR' | 'DEF' | 'MED' | 'DEL';
 export interface Player {
   id: string;
   name: string;
+  shirtName: string;
   country: string;
   position: Position;
   price: number;
