@@ -76,13 +76,49 @@ def age_factor(dob: str) -> float:
     return 0.40
 
 
-def calc_price(position: str, caps: int, goals: int, dob: str = "") -> int:
+# FIFA World Ranking tiers (June 2026 approximate)
+COUNTRY_FACTOR: dict[str, float] = {
+    # Tier 1 — Élite (×1.20)
+    "ARG": 1.20, "ESP": 1.20, "FRA": 1.20, "ENG": 1.20,
+    # Tier 2 — Muy fuerte (×1.12)
+    "BRA": 1.12, "POR": 1.12, "NED": 1.12, "GER": 1.12, "BEL": 1.10,
+    # Tier 3 — Fuerte (×1.06)
+    "CRO": 1.06, "URU": 1.06, "COL": 1.06, "MEX": 1.06, "MAR": 1.06,
+    "SEN": 1.06, "JPN": 1.06, "USA": 1.06, "KOR": 1.04, "SUI": 1.04, "NOR": 1.04,
+    # Tier 4 — Competitivos (×1.00)
+    "AUS": 1.00, "AUT": 1.00, "CZE": 1.00, "ECU": 1.00, "SWE": 1.00,
+    "TUR": 1.00, "ALG": 1.00, "TUN": 1.00, "GHA": 1.00, "IRN": 1.00,
+    "KSA": 1.00, "PAR": 1.00, "SCO": 1.00, "EGY": 0.98,
+    # Tier 5 — Resto (×0.85-0.92)
+    "CAN": 0.92, "CIV": 0.90, "BIH": 0.90, "QAT": 0.88, "RSA": 0.88,
+    "IRQ": 0.88, "JOR": 0.88, "UZB": 0.88, "NZL": 0.88, "CPV": 0.88,
+    "COD": 0.88, "HAI": 0.85, "CUW": 0.85, "PAN": 0.88,
+}
+
+
+def calc_price(position: str, caps: int, goals: int, dob: str = "", team_code: str = "") -> int:
     base = {"POR": 5_000_000, "DEF": 5_500_000, "MED": 6_000_000, "DEL": 6_500_000}[position]
-    value = base + caps * 50_000 + goals * 250_000
+
+    # Career stats: goals weighted higher, caps as baseline
+    value = base + caps * 30_000 + goals * 350_000
+
+    # Efficiency bonus: rewards consistent scorers relative to appearances
+    if caps >= 5:
+        efficiency = min(goals / caps, 1.2)
+        value += efficiency * 2_500_000
+
+    # Country factor (FIFA ranking tier)
+    country = COUNTRY_FACTOR.get(team_code, 0.90)
+    value = value * country
+
+    # Clamp before age factor
     value = max(4_000_000, min(18_000_000, value))
+
+    # Age factor applied after cap
     if dob:
         value = value * age_factor(dob)
         value = max(4_000_000, value)
+
     return round(value / 100_000) * 100_000
 
 
@@ -174,7 +210,7 @@ def parse_players(lines: list[str]) -> list[dict]:
                 "country": current_country[:80],
                 "teamCode": current_code,
                 "position": position,
-                "price": calc_price(position, caps_i, goals_i, dob),
+                "price": calc_price(position, caps_i, goals_i, dob, current_code),
                 "points": 0,
                 "club": club[:150],
                 "caps": caps_i,
