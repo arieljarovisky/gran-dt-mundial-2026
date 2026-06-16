@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Lock, Clock } from 'lucide-react';
+import { Lock, Clock, Trophy } from 'lucide-react';
 import { MatchdayInfo } from '../types';
 import { formatCountdown, formatDateTime } from '../utils/matchday';
 
@@ -13,42 +13,56 @@ export default function MatchdayBanner({ matchday }: MatchdayBannerProps) {
   useEffect(() => {
     setRemaining(matchday.msUntilLock);
     if (matchday.isLocked) return;
-
-    const timer = setInterval(() => {
-      setRemaining((prev) => Math.max(0, prev - 1000));
-    }, 1000);
-
+    const timer = setInterval(() => setRemaining((p) => Math.max(0, p - 1000)), 1000);
     return () => clearInterval(timer);
   }, [matchday]);
 
+  const locked = matchday.isLocked;
+
   return (
     <div
-      className={`rounded-xl border px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 ${
-        matchday.isLocked
-          ? 'bg-red-500/10 border-red-500/30'
-          : 'bg-amber-500/10 border-amber-500/30'
+      className={`rounded-2xl px-4 py-3.5 flex items-center gap-3 ${
+        locked ? 'bg-red-500/8 border border-red-500/25' : 'glass-gold'
       }`}
     >
-      <div className="flex items-center gap-2">
-        {matchday.isLocked ? (
-          <Lock size={16} className="text-red-400 shrink-0" />
+      <div
+        className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 ${
+          locked ? 'bg-red-500/15' : 'bg-amber-500/15'
+        }`}
+      >
+        {locked ? (
+          <Lock size={18} className="text-red-400" />
         ) : (
-          <Clock size={16} className="text-amber-500 shrink-0" />
+          <Clock size={18} className="text-amber-400" />
         )}
-        <div>
-          <div className="text-sm font-bold text-white">
-            Fecha {matchday.matchday}
-            {matchday.isLocked ? ' · Plantilla cerrada' : ' · Armá tu plantilla'}
-          </div>
-          <div className="text-xs text-gray-400">
-            {matchday.isLocked
-              ? `Cierre: ${formatDateTime(matchday.lockDeadline)} (1h antes del primer partido)`
-              : `Cierra en ${formatCountdown(remaining)} · ${formatDateTime(matchday.lockDeadline)}`}
-          </div>
-        </div>
       </div>
-      <div className="text-xs text-gray-500">
-        Partidos: {matchday.finishedCount}/{matchday.gamesCount}
+
+      <div className="flex-1 min-w-0">
+        <div className="flex items-center gap-2 flex-wrap">
+          <span className="text-sm font-extrabold text-white">Fecha {matchday.matchday}</span>
+          <span
+            className={`text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full ${
+              locked ? 'bg-red-500/20 text-red-400' : 'bg-amber-500/20 text-amber-400'
+            }`}
+          >
+            {locked ? 'Cerrada' : 'Abierta'}
+          </span>
+        </div>
+        <p className="text-xs text-gray-400 mt-0.5 truncate">
+          {locked
+            ? `Cerró el ${formatDateTime(matchday.lockDeadline)}`
+            : `Cierra en ${formatCountdown(remaining)}`}
+        </p>
+      </div>
+
+      <div className="text-right shrink-0 hidden xs:block">
+        <div className="flex items-center gap-1 text-gray-500">
+          <Trophy size={12} />
+          <span className="text-[10px] font-semibold">
+            {matchday.finishedCount}/{matchday.gamesCount}
+          </span>
+        </div>
+        <p className="text-[9px] text-gray-600 mt-0.5">partidos</p>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import { LineupSlot } from '../types';
-import { UserMinus } from 'lucide-react';
+import { UserMinus, Plus } from 'lucide-react';
 import { formatMoney } from '../utils';
+import { motion } from 'motion/react';
 
 interface MyTeamProps {
   slots: LineupSlot[];
@@ -9,91 +10,128 @@ interface MyTeamProps {
   canEdit?: boolean;
 }
 
+const POS_STYLE: Record<string, { badge: string; glow: string }> = {
+  DEL: { badge: 'bg-amber-500 text-black', glow: 'shadow-amber-500/30' },
+  MED: { badge: 'bg-sky-500 text-white', glow: 'shadow-sky-500/30' },
+  DEF: { badge: 'bg-emerald-500 text-white', glow: 'shadow-emerald-500/30' },
+  POR: { badge: 'bg-yellow-400 text-black', glow: 'shadow-yellow-400/30' },
+};
+
 export default function MyTeam({ slots, onSelectSlot, onRemovePlayer, canEdit = true }: MyTeamProps) {
   const gk = slots.filter((s) => s.position === 'POR');
   const def = slots.filter((s) => s.position === 'DEF');
   const mid = slots.filter((s) => s.position === 'MED');
   const fwd = slots.filter((s) => s.position === 'DEL');
 
-  const getBadgeColor = (pos: string) => {
-    switch (pos) {
-      case 'DEL':
-        return 'bg-amber-500 text-black';
-      case 'MED':
-        return 'bg-blue-500 text-white';
-      case 'DEF':
-        return 'bg-emerald-500 text-white';
-      case 'POR':
-        return 'bg-yellow-500 text-black';
-      default:
-        return 'bg-gray-500 text-white';
-    }
+  const renderSlot = (slot: LineupSlot, index: number) => {
+    const style = POS_STYLE[slot.position] ?? POS_STYLE.DEL;
+
+    return (
+      <motion.div
+        key={slot.id}
+        initial={{ opacity: 0, scale: 0.85 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ delay: index * 0.03, type: 'spring', stiffness: 300, damping: 22 }}
+        className="flex flex-col items-center group relative w-[72px] xs:w-[80px] sm:w-[88px]"
+      >
+        {slot.player ? (
+          <>
+            <div
+              className={`relative w-[60px] h-[72px] sm:w-[68px] sm:h-[80px] rounded-2xl overflow-hidden border border-white/10 shadow-lg ${style.glow} cursor-pointer active:scale-95 transition-transform`}
+              onClick={() => canEdit && onRemovePlayer(slot.id)}
+            >
+              <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-black/60" />
+              {slot.player.flag ? (
+                <img
+                  src={slot.player.flag}
+                  alt=""
+                  className="absolute inset-0 w-full h-full object-cover opacity-40"
+                />
+              ) : null}
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span className="font-black text-white/90 text-sm sm:text-base drop-shadow-lg z-10">
+                  {slot.player.teamCode}
+                </span>
+              </div>
+              {canEdit && (
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onRemovePlayer(slot.id);
+                  }}
+                  className="absolute top-1 right-1 w-5 h-5 bg-red-500 rounded-full flex items-center justify-center shadow-lg z-20 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity"
+                >
+                  <UserMinus size={10} className="text-white" />
+                </button>
+              )}
+            </div>
+            <span className={`${style.badge} text-[8px] sm:text-[9px] font-black px-1.5 py-0.5 rounded-md mt-1.5 tracking-wider`}>
+              {slot.position}
+            </span>
+            <p className="text-[9px] sm:text-[10px] font-bold text-white text-center leading-tight mt-0.5 line-clamp-2 w-full px-0.5">
+              {slot.player.name.split(' ').slice(-2).join(' ')}
+            </p>
+            <p className="text-[8px] sm:text-[9px] text-amber-500/80 font-mono">{formatMoney(slot.player.price)}</p>
+          </>
+        ) : (
+          <>
+            <button
+              onClick={() => canEdit && onSelectSlot(slot.id)}
+              disabled={!canEdit}
+              className={`w-[60px] h-[72px] sm:w-[68px] sm:h-[80px] rounded-2xl border-2 border-dashed flex flex-col items-center justify-center gap-1 transition-all ${
+                canEdit
+                  ? 'border-amber-500/40 bg-amber-500/5 slot-empty active:scale-95 hover:bg-amber-500/10'
+                  : 'border-white/10 bg-white/3 opacity-40 cursor-not-allowed'
+              }`}
+            >
+              <Plus size={20} className={canEdit ? 'text-amber-500/60' : 'text-white/20'} />
+            </button>
+            <span className="text-[8px] text-gray-600 font-bold uppercase tracking-widest mt-1.5">Vacío</span>
+          </>
+        )}
+      </motion.div>
+    );
   };
 
-  const renderSlot = (slot: LineupSlot) => (
-    <div
-      key={slot.id}
-      className="flex flex-col items-center group relative cursor-pointer"
-      onClick={() => canEdit && slot.player && onRemovePlayer(slot.id)}
-    >
-      {slot.player ? (
-        <>
-          <div className="w-14 h-16 sm:w-16 sm:h-20 bg-[#1a1a1a] border border-white/10 rounded-md mb-2 flex items-center justify-center overflow-hidden relative">
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-            <span className="font-bold text-gray-200 text-base sm:text-lg z-10">{slot.player.teamCode}</span>
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                if (canEdit) onRemovePlayer(slot.id);
-              }}
-              disabled={!canEdit}
-              className="absolute -top-1 -right-1 bg-red-500/80 text-white rounded-full p-1 opacity-100 sm:opacity-0 sm:group-hover:opacity-100 disabled:hidden transition-opacity z-20"
-            >
-              <UserMinus size={12} className="w-3 h-3" />
-            </button>
-          </div>
-          <div
-            className={`${getBadgeColor(slot.position)} text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-sm mb-1`}
-          >
-            {slot.position}
-          </div>
-          <div className="text-[10px] sm:text-xs font-bold text-white max-w-full truncate px-1 text-center">
-            {slot.player.name}
-          </div>
-          <div className="text-[9px] text-gray-400 font-mono tracking-tight">
-            {formatMoney(slot.player.price)}
-          </div>
-        </>
-      ) : (
-        <>
-          <button
-            onClick={() => canEdit && onSelectSlot(slot.id)}
-            disabled={!canEdit}
-            className="w-14 h-16 sm:w-16 sm:h-20 bg-white/5 border border-dashed border-white/20 rounded-md mb-2 flex items-center justify-center hover:bg-white/10 disabled:opacity-40 disabled:cursor-not-allowed transition-colors z-10"
-          >
-            <span className="text-2xl text-white/20">+</span>
-          </button>
-          <div className="text-[9px] sm:text-[10px] font-bold text-gray-500 uppercase tracking-widest mt-1">
-            Vacío
-          </div>
-        </>
-      )}
-    </div>
-  );
+  const rows = [
+    { players: fwd, label: 'Delanteros', px: 'px-2' },
+    { players: mid, label: 'Mediocampistas', px: 'px-1' },
+    { players: def, label: 'Defensores', px: 'px-1' },
+    { players: gk, label: 'Arquero', px: 'px-2' },
+  ];
+
+  let slotIndex = 0;
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto aspect-[3/4] sm:aspect-[4/5] bg-[#0e0e0e] rounded-t-[60px] sm:rounded-t-[100px] overflow-hidden flex flex-col justify-between py-8 sm:py-12 border border-white/5 rounded-b-xl sm:rounded-b-2xl shadow-2xl">
-      <div className="absolute inset-4 sm:inset-12 border border-white/5 rounded-t-[60px] sm:rounded-t-[80px] pointer-events-none">
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1/2 sm:w-[40%] h-24 sm:h-32 border-t border-x border-white/5"></div>
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1/4 sm:w-1/4 h-12 sm:h-16 border-b border-x border-white/5 rounded-b-xl"></div>
-        <div className="absolute top-1/2 left-0 right-0 h-[1px] bg-white/5"></div>
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 sm:w-40 sm:h-40 border border-white/5 rounded-full"></div>
-      </div>
+    <div className="relative w-full mx-auto">
+      <div className="pitch-grass relative rounded-3xl border border-emerald-900/40 shadow-2xl shadow-black/60 overflow-hidden min-h-[480px] sm:min-h-[560px] md:min-h-[600px] flex flex-col justify-between py-6 sm:py-8 px-2">
+        {/* Pitch markings */}
+        <div className="absolute inset-3 sm:inset-6 border border-white/8 rounded-[40px] sm:rounded-[60px] pointer-events-none overflow-hidden">
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[45%] h-14 sm:h-20 border-b border-x border-white/8 rounded-b-2xl" />
+          <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[55%] h-16 sm:h-24 border-t border-x border-white/8" />
+          <div className="absolute top-1/2 left-0 right-0 h-px bg-white/8" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 sm:w-32 sm:h-32 border border-white/8 rounded-full" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-white/20 rounded-full" />
+        </div>
 
-      <div className="flex justify-center z-10 gap-6 sm:gap-16 mt-4 sm:mt-8">{fwd.map(renderSlot)}</div>
-      <div className="flex justify-around px-4 sm:px-16 z-10">{mid.map(renderSlot)}</div>
-      <div className="flex justify-around px-4 sm:px-12 z-10">{def.map(renderSlot)}</div>
-      <div className="flex justify-center z-10 mb-4 sm:mb-8">{gk.map(renderSlot)}</div>
+        {/* Gradient overlays */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-black/30 pointer-events-none" />
+
+        {rows.map(({ players, label, px }, rowIdx) => (
+          <div key={label} className={`relative z-10 ${px}`}>
+            <p className="text-[9px] text-white/20 uppercase tracking-[0.2em] text-center mb-2 font-semibold hidden sm:block">
+              {label}
+            </p>
+            <div
+              className={`flex justify-center flex-wrap gap-2 sm:gap-3 ${
+                rowIdx === 0 ? 'mt-2' : rowIdx === 3 ? 'mb-2' : ''
+              }`}
+            >
+              {players.map((slot) => renderSlot(slot, slotIndex++))}
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
