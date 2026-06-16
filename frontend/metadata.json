@@ -1,0 +1,8 @@
+{
+  "name": "Gran DT Mundial 2026",
+  "description": "Juego de Fantasy Football para el Mundial 2026. Arma tu equipo, ajusta tu presupuesto y compite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

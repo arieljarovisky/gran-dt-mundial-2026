@@ -1,0 +1,51 @@
+CREATE TABLE IF NOT EXISTS fantasy_teams (
+  user_id VARCHAR(50) PRIMARY KEY,
+  budget INT NOT NULL DEFAULT 100000000,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS team_slots (
+  user_id VARCHAR(50) NOT NULL,
+  slot_id VARCHAR(10) NOT NULL,
+  position ENUM('POR', 'DEF', 'MED', 'DEL') NOT NULL,
+  player_id VARCHAR(30) NULL,
+  PRIMARY KEY (user_id, slot_id),
+  FOREIGN KEY (user_id) REFERENCES fantasy_teams(user_id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS tournaments (
+  id VARCHAR(36) PRIMARY KEY,
+  name VARCHAR(100) NOT NULL,
+  invite_code VARCHAR(8) NOT NULL UNIQUE,
+  creator_user_id VARCHAR(50) NOT NULL,
+  max_members INT NOT NULL DEFAULT 20,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS tournament_members (
+  tournament_id VARCHAR(36) NOT NULL,
+  user_id VARCHAR(50) NOT NULL,
+  display_name VARCHAR(50) NOT NULL,
+  joined_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (tournament_id, user_id),
+  FOREIGN KEY (tournament_id) REFERENCES tournaments(id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS matchday_squads (
+  user_id VARCHAR(50) NOT NULL,
+  matchday INT NOT NULL,
+  slot_id VARCHAR(10) NOT NULL,
+  position ENUM('POR', 'DEF', 'MED', 'DEL') NOT NULL,
+  player_id VARCHAR(30) NULL,
+  locked_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (user_id, matchday, slot_id)
+);
+
+CREATE TABLE IF NOT EXISTS matchday_scores (
+  user_id VARCHAR(50) NOT NULL,
+  matchday INT NOT NULL,
+  points INT NOT NULL DEFAULT 0,
+  breakdown JSON,
+  calculated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (user_id, matchday)
+);
