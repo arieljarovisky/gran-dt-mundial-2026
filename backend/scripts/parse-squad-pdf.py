@@ -53,10 +53,36 @@ def slugify(text: str) -> str:
     return text.strip("-") or "player"
 
 
-def calc_price(position: str, caps: int, goals: int) -> int:
+def age_factor(dob: str) -> float:
+    """Depreciate price for players past their prime (World Cup is June 2026)."""
+    d, m, y = (int(x) for x in dob.split("/"))
+    age = 2026 - y
+    if m > 6:
+        age -= 1
+    if age <= 20:
+        return 0.80
+    if age <= 23:
+        return 0.90
+    if age <= 27:
+        return 1.00
+    if age <= 29:
+        return 0.95
+    if age <= 31:
+        return 0.85
+    if age <= 33:
+        return 0.70
+    if age <= 35:
+        return 0.55
+    return 0.40
+
+
+def calc_price(position: str, caps: int, goals: int, dob: str = "") -> int:
     base = {"POR": 5_000_000, "DEF": 5_500_000, "MED": 6_000_000, "DEL": 6_500_000}[position]
     value = base + caps * 50_000 + goals * 250_000
     value = max(4_000_000, min(18_000_000, value))
+    if dob:
+        value = value * age_factor(dob)
+        value = max(4_000_000, value)
     return round(value / 100_000) * 100_000
 
 
@@ -148,7 +174,7 @@ def parse_players(lines: list[str]) -> list[dict]:
                 "country": current_country[:80],
                 "teamCode": current_code,
                 "position": position,
-                "price": calc_price(position, caps_i, goals_i),
+                "price": calc_price(position, caps_i, goals_i, dob),
                 "points": 0,
                 "club": club[:150],
                 "caps": caps_i,
