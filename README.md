@@ -85,6 +85,13 @@ npm run dev
 | Frontend + API | Vercel |
 | MySQL | Railway |
 
+### 0. Vercel — Root Directory
+
+En Vercel → **Project Settings → General → Root Directory**:
+
+- Debe estar **vacío** (raíz del repo), **no** `frontend` ni `backend`
+- Si apunta a `frontend`, el build falla con `Missing script: "install:all"`
+
 ### 1. Railway — copiar credenciales
 
 1. Entrá a [railway.app](https://railway.app) → tu proyecto → servicio **MySQL**

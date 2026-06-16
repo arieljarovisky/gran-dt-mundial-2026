@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "name": "gran-dt-mundial-2026",
-  "installCommand": "npm run install:all",
+  "installCommand": "npm install && npm install --prefix backend && npm install --prefix frontend",
   "buildCommand": "npm run build",
   "outputDirectory": "frontend/dist",
   "framework": null,
