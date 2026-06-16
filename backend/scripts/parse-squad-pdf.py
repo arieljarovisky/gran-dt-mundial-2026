@@ -80,23 +80,23 @@ def age_factor(dob: str) -> float:
 # Teams like QAT accumulate caps/goals vs weaker AFC/Gulf Cup opponents,
 # so their stats are discounted more aggressively.
 COUNTRY_FACTOR: dict[str, float] = {
-    # Tier 1 — Élite (×1.25)
-    "ARG": 1.25, "ESP": 1.25, "FRA": 1.25, "ENG": 1.25,
-    # Tier 2 — Muy fuerte (×1.12–1.15)
-    "BRA": 1.15, "POR": 1.15, "NED": 1.15, "GER": 1.15, "BEL": 1.12,
-    # Tier 3 — Fuerte (×1.05–1.08)
-    "CRO": 1.08, "URU": 1.08, "COL": 1.08, "MAR": 1.08, "SEN": 1.08,
-    "JPN": 1.05, "USA": 1.05, "MEX": 1.05,
-    # Tier 4 — Competitivos (×0.92–1.00)
+    # Tier 1 — Élite (×1.40)
+    "ARG": 1.40, "ESP": 1.40, "FRA": 1.40, "ENG": 1.40,
+    # Tier 2 — Muy fuerte (×1.22–1.28)
+    "BRA": 1.28, "POR": 1.28, "NED": 1.28, "GER": 1.28, "BEL": 1.22,
+    # Tier 3 — Fuerte (×1.08–1.14)
+    "CRO": 1.14, "URU": 1.14, "COL": 1.14, "MAR": 1.14, "SEN": 1.14,
+    "JPN": 1.08, "USA": 1.08, "MEX": 1.08,
+    # Tier 4 — Competitivos (×0.80–1.00)
     "KOR": 1.00, "SUI": 1.00, "NOR": 1.00, "AUS": 1.00, "AUT": 1.00,
     "CZE": 1.00, "ECU": 1.00, "SWE": 1.00, "TUR": 1.00, "ALG": 1.00,
-    "TUN": 1.00, "PAR": 1.00, "SCO": 0.98, "GHA": 0.98, "EGY": 0.95,
-    "IRN": 0.95, "KSA": 0.92,
-    # Tier 5 — Competencia regional más débil (×0.72–0.88)
-    "CAN": 0.88, "CIV": 0.86, "BIH": 0.84,
-    "RSA": 0.80, "NZL": 0.80, "CPV": 0.80, "COD": 0.80, "PAN": 0.80,
-    "UZB": 0.78, "IRQ": 0.78, "JOR": 0.75, "HAI": 0.72, "CUW": 0.72,
-    "QAT": 0.70,
+    "TUN": 1.00, "PAR": 1.00, "SCO": 0.95, "GHA": 0.92, "EGY": 0.88,
+    "IRN": 0.85, "KSA": 0.80,
+    # Tier 5 — Competencia regional débil (×0.45–0.75)
+    "CAN": 0.75, "CIV": 0.72, "BIH": 0.68,
+    "RSA": 0.60, "NZL": 0.60, "CPV": 0.58, "COD": 0.58, "PAN": 0.58,
+    "UZB": 0.55, "IRQ": 0.52, "JOR": 0.50, "HAI": 0.45, "CUW": 0.45,
+    "QAT": 0.42,
 }
 
 
