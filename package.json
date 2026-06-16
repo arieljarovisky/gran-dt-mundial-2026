@@ -2,6 +2,7 @@
   "name": "gran-dt-mundial-2026",
   "private": true,
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "install:all": "npm install --prefix backend && npm install --prefix frontend",
     "db:setup": "npm run db:setup --prefix backend",

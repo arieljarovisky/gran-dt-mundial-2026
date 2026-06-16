@@ -77,3 +77,27 @@ npm run dev
 | `npm run dev:backend` | Solo backend |
 | `npm run db:setup` | Tablas MySQL para fantasy |
 | `npm run build` | Build del frontend |
+
+## Deploy en Vercel
+
+El proyecto incluye `vercel.json` para desplegar **frontend + backend** en un solo proyecto:
+
+| Servicio | Cómo se despliega |
+|----------|-------------------|
+| Frontend (PWA) | Build estático → `frontend/dist` |
+| Backend (API) | Serverless → `api/index.js` → Express |
+
+### Pasos
+
+1. Subí el repo a GitHub y conectalo en [vercel.com](https://vercel.com)
+2. Vercel detecta `vercel.json` automáticamente (root directory: `.`)
+3. Configurá las variables de entorno (ver `.env.vercel.example`):
+   - `DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME` → MySQL en la nube
+   - `WORLDCUP_API_URL`, `CURRENT_MATCHDAY`
+4. Deploy
+
+### Notas
+
+- MySQL local **no funciona** en Vercel; usá PlanetScale, Railway, Aiven u otro host remoto
+- La API queda en el mismo dominio: `/api/health`, `/api/players`, etc.
+- El frontend llama a `/api/*` sin proxy (mismo origen en producción)
