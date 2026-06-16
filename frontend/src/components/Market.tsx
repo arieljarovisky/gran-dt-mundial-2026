@@ -4,6 +4,7 @@ import { fetchPlayers } from '../api/client';
 import { formatMoney } from '../utils';
 import { X, Search } from 'lucide-react';
 import { motion } from 'motion/react';
+import FlagImage from './FlagImage';
 
 interface MarketProps {
   onClose: () => void;
@@ -147,11 +148,12 @@ export default function Market({ onClose, targetPosition, onSelectPlayer, curren
                   className="flex items-center gap-3 p-3 rounded-2xl bg-white/4 border border-white/6 hover:bg-white/7 active:scale-[0.99] transition-all"
                 >
                   <div className="w-11 h-11 rounded-xl overflow-hidden border border-white/10 bg-black/40 shrink-0 flex items-center justify-center">
-                    {player.flag ? (
-                      <img src={player.flag} alt="" className="w-full h-full object-cover" />
-                    ) : (
-                      <span className="text-xs font-bold text-gray-400">{player.teamCode}</span>
-                    )}
+                    <FlagImage
+                      flag={player.flag}
+                      teamCode={player.teamCode}
+                      className="w-full h-full object-cover"
+                      fallbackClassName="text-xs"
+                    />
                   </div>
                   <div className="flex-1 min-w-0">
                     <p className="font-bold text-white text-sm truncate">{player.name}</p>

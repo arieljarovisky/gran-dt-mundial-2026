@@ -2,6 +2,7 @@ import { LineupSlot } from '../types';
 import { UserMinus, Plus } from 'lucide-react';
 import { formatMoney } from '../utils';
 import { motion } from 'motion/react';
+import FlagImage from './FlagImage';
 
 interface MyTeamProps {
   slots: LineupSlot[];
@@ -41,13 +42,12 @@ export default function MyTeam({ slots, onSelectSlot, onRemovePlayer, canEdit = 
               onClick={() => canEdit && onRemovePlayer(slot.id)}
             >
               <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-black/60" />
-              {slot.player.flag ? (
-                <img
-                  src={slot.player.flag}
-                  alt=""
-                  className="absolute inset-0 w-full h-full object-cover opacity-40"
-                />
-              ) : null}
+              <FlagImage
+                flag={slot.player.flag}
+                teamCode={slot.player.teamCode}
+                className="absolute inset-0 w-full h-full object-cover opacity-50"
+                fallbackClassName="text-sm opacity-0"
+              />
               <div className="absolute inset-0 flex items-center justify-center">
                 <span className="font-black text-white/90 text-sm sm:text-base drop-shadow-lg z-10">
                   {slot.player.teamCode}

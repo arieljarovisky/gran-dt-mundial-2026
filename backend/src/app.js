@@ -9,6 +9,7 @@ import worldcupRouter from './routes/worldcup.js';
 import tournamentsRouter from './routes/tournaments.js';
 import matchdaysRouter from './routes/matchdays.js';
 import authRouter from './routes/auth.js';
+import flagsRouter from './routes/flags.js';
 import { BASE_URL } from './services/worldcupApi.js';
 import pool from './db/connection.js';
 
@@ -46,6 +47,7 @@ app.get('/api/health', async (_req, res) => {
 });
 
 app.use('/api/auth', authRouter);
+app.use('/api/flags', flagsRouter);
 app.use('/api/worldcup', worldcupRouter);
 app.use('/api/players', playersRouter);
 app.use('/api/team', teamsRouter);

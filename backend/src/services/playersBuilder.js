@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { getTeams } from './worldcupApi.js';
+import { getFlagApiPath, getFlagCdnUrl } from '../utils/flagUrls.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SQUAD_FILE = path.join(__dirname, '../db/players-parsed.json');
@@ -25,7 +26,7 @@ function enrichWithApiData(squadPlayers, teams) {
       position: player.position,
       price: player.price,
       points: player.points ?? 0,
-      flag: team?.flag ?? null,
+      flag: getFlagApiPath(player.teamCode) || team?.flag || getFlagCdnUrl(player.teamCode),
       teamId: team?.id ?? null,
       group: team?.groups ?? null,
       club: player.club ?? null,
@@ -48,6 +49,7 @@ export async function buildPlayersCatalog() {
       position: player.position,
       price: player.price,
       points: player.points ?? 0,
+      flag: getFlagApiPath(player.teamCode) || getFlagCdnUrl(player.teamCode),
       club: player.club ?? null,
     }));
   }
