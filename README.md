@@ -99,7 +99,7 @@ npm run db:setup
 ### 2. Railway — Backend (nuevo servicio)
 
 1. Mismo proyecto Railway → **New** → **GitHub Repo** → este repo
-2. **Settings → Root Directory** → `backend`
+2. **Settings → Source → Root Directory** → `backend` ← **obligatorio**
 3. **Variables** del servicio backend:
 
 ```
