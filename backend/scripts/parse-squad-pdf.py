@@ -76,45 +76,48 @@ def age_factor(dob: str) -> float:
     return 0.40
 
 
-# FIFA World Ranking tiers (June 2026 approximate)
+# Country factors reflect FIFA ranking AND quality of competition faced.
+# Teams like QAT accumulate caps/goals vs weaker AFC/Gulf Cup opponents,
+# so their stats are discounted more aggressively.
 COUNTRY_FACTOR: dict[str, float] = {
-    # Tier 1 — Élite (×1.20)
-    "ARG": 1.20, "ESP": 1.20, "FRA": 1.20, "ENG": 1.20,
-    # Tier 2 — Muy fuerte (×1.12)
-    "BRA": 1.12, "POR": 1.12, "NED": 1.12, "GER": 1.12, "BEL": 1.10,
-    # Tier 3 — Fuerte (×1.06)
-    "CRO": 1.06, "URU": 1.06, "COL": 1.06, "MEX": 1.06, "MAR": 1.06,
-    "SEN": 1.06, "JPN": 1.06, "USA": 1.06, "KOR": 1.04, "SUI": 1.04, "NOR": 1.04,
-    # Tier 4 — Competitivos (×1.00)
-    "AUS": 1.00, "AUT": 1.00, "CZE": 1.00, "ECU": 1.00, "SWE": 1.00,
-    "TUR": 1.00, "ALG": 1.00, "TUN": 1.00, "GHA": 1.00, "IRN": 1.00,
-    "KSA": 1.00, "PAR": 1.00, "SCO": 1.00, "EGY": 0.98,
-    # Tier 5 — Resto (×0.85-0.92)
-    "CAN": 0.92, "CIV": 0.90, "BIH": 0.90, "QAT": 0.88, "RSA": 0.88,
-    "IRQ": 0.88, "JOR": 0.88, "UZB": 0.88, "NZL": 0.88, "CPV": 0.88,
-    "COD": 0.88, "HAI": 0.85, "CUW": 0.85, "PAN": 0.88,
+    # Tier 1 — Élite (×1.25)
+    "ARG": 1.25, "ESP": 1.25, "FRA": 1.25, "ENG": 1.25,
+    # Tier 2 — Muy fuerte (×1.12–1.15)
+    "BRA": 1.15, "POR": 1.15, "NED": 1.15, "GER": 1.15, "BEL": 1.12,
+    # Tier 3 — Fuerte (×1.05–1.08)
+    "CRO": 1.08, "URU": 1.08, "COL": 1.08, "MAR": 1.08, "SEN": 1.08,
+    "JPN": 1.05, "USA": 1.05, "MEX": 1.05,
+    # Tier 4 — Competitivos (×0.92–1.00)
+    "KOR": 1.00, "SUI": 1.00, "NOR": 1.00, "AUS": 1.00, "AUT": 1.00,
+    "CZE": 1.00, "ECU": 1.00, "SWE": 1.00, "TUR": 1.00, "ALG": 1.00,
+    "TUN": 1.00, "PAR": 1.00, "SCO": 0.98, "GHA": 0.98, "EGY": 0.95,
+    "IRN": 0.95, "KSA": 0.92,
+    # Tier 5 — Competencia regional más débil (×0.72–0.88)
+    "CAN": 0.88, "CIV": 0.86, "BIH": 0.84,
+    "RSA": 0.80, "NZL": 0.80, "CPV": 0.80, "COD": 0.80, "PAN": 0.80,
+    "UZB": 0.78, "IRQ": 0.78, "JOR": 0.75, "HAI": 0.72, "CUW": 0.72,
+    "QAT": 0.70,
 }
 
 
 def calc_price(position: str, caps: int, goals: int, dob: str = "", team_code: str = "") -> int:
     base = {"POR": 5_000_000, "DEF": 5_500_000, "MED": 6_000_000, "DEL": 6_500_000}[position]
 
-    # Career stats: goals weighted higher, caps as baseline
-    value = base + caps * 30_000 + goals * 350_000
+    # Lower multipliers so country factor has real impact
+    value = base + caps * 20_000 + goals * 150_000
 
-    # Efficiency bonus: rewards consistent scorers relative to appearances
+    # Efficiency bonus: rewards consistent scorers (capped at 1.2 goals/cap)
     if caps >= 5:
         efficiency = min(goals / caps, 1.2)
-        value += efficiency * 2_500_000
+        value += efficiency * 1_500_000
 
-    # Country factor (FIFA ranking tier)
-    country = COUNTRY_FACTOR.get(team_code, 0.90)
+    # Country factor applied before cap so élite-nation players can reach 18M
+    # while weaker-competition nations stay naturally lower
+    country = COUNTRY_FACTOR.get(team_code, 0.88)
     value = value * country
 
-    # Clamp before age factor
     value = max(4_000_000, min(18_000_000, value))
 
-    # Age factor applied after cap
     if dob:
         value = value * age_factor(dob)
         value = max(4_000_000, value)

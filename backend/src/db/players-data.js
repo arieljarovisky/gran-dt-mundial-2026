@@ -7,7 +7,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "POR",
-    "price": 5100000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -16,7 +16,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEF",
-    "price": 6600000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -25,7 +25,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEF",
-    "price": 6400000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -34,7 +34,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEF",
-    "price": 7300000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -43,7 +43,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEF",
-    "price": 6500000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -52,7 +52,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "MED",
-    "price": 8300000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -61,7 +61,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEL",
-    "price": 9900000,
+    "price": 8300000,
     "points": 0
   },
   {
@@ -70,7 +70,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "MED",
-    "price": 9000000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -79,7 +79,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEL",
-    "price": 11800000,
+    "price": 9100000,
     "points": 0
   },
   {
@@ -88,7 +88,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "MED",
-    "price": 7400000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -97,7 +97,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEL",
-    "price": 8000000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -106,7 +106,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEL",
-    "price": 7000000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -115,7 +115,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEF",
-    "price": 6800000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -124,7 +124,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "MED",
-    "price": 7000000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -133,7 +133,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEF",
-    "price": 6400000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -151,7 +151,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEF",
-    "price": 6400000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -160,7 +160,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEL",
-    "price": 15600000,
+    "price": 10900000,
     "points": 0
   },
   {
@@ -169,7 +169,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "MED",
-    "price": 8600000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -178,7 +178,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEL",
-    "price": 8700000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -187,7 +187,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEF",
-    "price": 9700000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -196,7 +196,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "MED",
-    "price": 6000000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -223,7 +223,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEL",
-    "price": 6200000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -232,7 +232,7 @@ export const PLAYERS = [
     "country": "Algeria",
     "teamCode": "ALG",
     "position": "DEF",
-    "price": 5700000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -241,7 +241,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "POR",
-    "price": 4300000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -250,7 +250,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "MED",
-    "price": 6900000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -259,7 +259,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "DEF",
-    "price": 6900000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -268,7 +268,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "DEF",
-    "price": 8500000,
+    "price": 7900000,
     "points": 0
   },
   {
@@ -277,7 +277,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "MED",
-    "price": 8600000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -286,7 +286,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "DEF",
-    "price": 7700000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -295,7 +295,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "MED",
-    "price": 7900000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -304,7 +304,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "MED",
-    "price": 7400000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -313,7 +313,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "DEL",
-    "price": 16300000,
+    "price": 12500000,
     "points": 0
   },
   {
@@ -331,7 +331,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "MED",
-    "price": 9800000,
+    "price": 8500000,
     "points": 0
   },
   {
@@ -349,7 +349,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "DEF",
-    "price": 9400000,
+    "price": 8400000,
     "points": 0
   },
   {
@@ -358,7 +358,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "MED",
-    "price": 8600000,
+    "price": 8500000,
     "points": 0
   },
   {
@@ -367,7 +367,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "MED",
-    "price": 11300000,
+    "price": 9600000,
     "points": 0
   },
   {
@@ -376,7 +376,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "DEL",
-    "price": 11400000,
+    "price": 10000000,
     "points": 0
   },
   {
@@ -385,7 +385,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "DEL",
-    "price": 8600000,
+    "price": 8200000,
     "points": 0
   },
   {
@@ -394,7 +394,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "DEL",
-    "price": 8000000,
+    "price": 7900000,
     "points": 0
   },
   {
@@ -403,7 +403,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "DEF",
-    "price": 6000000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -412,7 +412,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "MED",
-    "price": 11800000,
+    "price": 10000000,
     "points": 0
   },
   {
@@ -421,7 +421,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "DEL",
-    "price": 8000000,
+    "price": 8300000,
     "points": 0
   },
   {
@@ -430,7 +430,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "DEL",
-    "price": 17100000,
+    "price": 17000000,
     "points": 0
   },
   {
@@ -439,7 +439,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "POR",
-    "price": 5700000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -448,7 +448,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "MED",
-    "price": 11700000,
+    "price": 9900000,
     "points": 0
   },
   {
@@ -457,7 +457,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "DEF",
-    "price": 6900000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -466,7 +466,7 @@ export const PLAYERS = [
     "country": "Argentina",
     "teamCode": "ARG",
     "position": "DEF",
-    "price": 8700000,
+    "price": 8100000,
     "points": 0
   },
   {
@@ -475,7 +475,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "POR",
-    "price": 4500000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -484,7 +484,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEF",
-    "price": 5300000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -493,7 +493,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEF",
-    "price": 5800000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -502,7 +502,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEF",
-    "price": 5700000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -511,7 +511,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEF",
-    "price": 7300000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -520,7 +520,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEF",
-    "price": 4200000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -529,7 +529,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEL",
-    "price": 7800000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -538,7 +538,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "MED",
-    "price": 7900000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -547,7 +547,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEL",
-    "price": 7200000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -556,7 +556,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEL",
-    "price": 8400000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -565,7 +565,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEL",
-    "price": 10000000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -574,7 +574,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "POR",
-    "price": 4400000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -583,7 +583,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "MED",
-    "price": 7000000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -601,7 +601,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEF",
-    "price": 5700000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -610,7 +610,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEF",
-    "price": 5100000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -619,7 +619,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEL",
-    "price": 8000000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -637,7 +637,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEF",
-    "price": 11200000,
+    "price": 8400000,
     "points": 0
   },
   {
@@ -655,7 +655,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEF",
-    "price": 5400000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -664,7 +664,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "MED",
-    "price": 9700000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -673,7 +673,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEL",
-    "price": 8700000,
+    "price": 7700000,
     "points": 0
   },
   {
@@ -682,7 +682,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "MED",
-    "price": 5600000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -700,7 +700,7 @@ export const PLAYERS = [
     "country": "Australia",
     "teamCode": "AUS",
     "position": "DEL",
-    "price": 6900000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -709,7 +709,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "POR",
-    "price": 4900000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -727,7 +727,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "DEF",
-    "price": 6500000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -736,7 +736,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "MED",
-    "price": 8700000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -745,7 +745,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "DEF",
-    "price": 8600000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -754,7 +754,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "MED",
-    "price": 7800000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -763,7 +763,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "DEL",
-    "price": 7200000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -772,7 +772,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "DEF",
-    "price": 8000000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -781,7 +781,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "MED",
-    "price": 12600000,
+    "price": 8600000,
     "points": 0
   },
   {
@@ -790,7 +790,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "MED",
-    "price": 6900000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -799,7 +799,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "DEL",
-    "price": 12600000,
+    "price": 8500000,
     "points": 0
   },
   {
@@ -817,7 +817,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "POR",
-    "price": 5300000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -826,7 +826,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "DEL",
-    "price": 8600000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -835,7 +835,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "DEF",
-    "price": 7600000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -844,7 +844,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "DEF",
-    "price": 4500000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -853,7 +853,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "MED",
-    "price": 5800000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -862,7 +862,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "MED",
-    "price": 8300000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -871,7 +871,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "MED",
-    "price": 6600000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -880,7 +880,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "MED",
-    "price": 9900000,
+    "price": 8000000,
     "points": 0
   },
   {
@@ -889,7 +889,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "DEL",
-    "price": 7800000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -898,7 +898,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "MED",
-    "price": 6600000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -907,7 +907,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "DEF",
-    "price": 5500000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -916,7 +916,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "MED",
-    "price": 4900000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -934,7 +934,7 @@ export const PLAYERS = [
     "country": "Austria",
     "teamCode": "AUT",
     "position": "MED",
-    "price": 6700000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -943,7 +943,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "POR",
-    "price": 5000000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -952,7 +952,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "DEF",
-    "price": 6700000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -961,7 +961,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "DEF",
-    "price": 7600000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -970,7 +970,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "DEF",
-    "price": 4900000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -979,7 +979,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "DEF",
-    "price": 8800000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -988,7 +988,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "MED",
-    "price": 6400000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -997,7 +997,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "MED",
-    "price": 9900000,
+    "price": 8900000,
     "points": 0
   },
   {
@@ -1006,7 +1006,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "MED",
-    "price": 14100000,
+    "price": 10500000,
     "points": 0
   },
   {
@@ -1024,7 +1024,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "DEL",
-    "price": 12000000,
+    "price": 9200000,
     "points": 0
   },
   {
@@ -1033,7 +1033,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "DEL",
-    "price": 11700000,
+    "price": 9700000,
     "points": 0
   },
   {
@@ -1042,7 +1042,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "POR",
-    "price": 5000000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -1051,7 +1051,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "POR",
-    "price": 4400000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -1060,7 +1060,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "DEL",
-    "price": 10500000,
+    "price": 8800000,
     "points": 0
   },
   {
@@ -1069,7 +1069,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "DEF",
-    "price": 7100000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -1087,7 +1087,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "DEL",
-    "price": 11000000,
+    "price": 9300000,
     "points": 0
   },
   {
@@ -1105,7 +1105,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "MED",
-    "price": 6000000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -1114,7 +1114,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "MED",
-    "price": 7700000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -1123,7 +1123,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "DEF",
-    "price": 7600000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -1132,7 +1132,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "MED",
-    "price": 8400000,
+    "price": 7700000,
     "points": 0
   },
   {
@@ -1141,7 +1141,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "MED",
-    "price": 8200000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -1150,7 +1150,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "MED",
-    "price": 8000000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -1168,7 +1168,7 @@ export const PLAYERS = [
     "country": "Belgium",
     "teamCode": "BEL",
     "position": "DEL",
-    "price": 6500000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -1177,7 +1177,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "POR",
-    "price": 4400000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -1186,7 +1186,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEF",
-    "price": 5500000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -1195,7 +1195,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEF",
-    "price": 5800000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -1204,7 +1204,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEF",
-    "price": 5200000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -1213,7 +1213,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEF",
-    "price": 4700000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -1222,7 +1222,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "MED",
-    "price": 6300000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -1231,7 +1231,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEF",
-    "price": 5500000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -1240,7 +1240,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "MED",
-    "price": 6400000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -1249,7 +1249,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEL",
-    "price": 6000000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -1258,7 +1258,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEL",
-    "price": 8000000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -1267,7 +1267,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEL",
-    "price": 7200000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -1285,7 +1285,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "MED",
-    "price": 5900000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -1294,7 +1294,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "MED",
-    "price": 5400000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -1303,7 +1303,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "MED",
-    "price": 6300000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -1312,7 +1312,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "MED",
-    "price": 6100000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -1321,7 +1321,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "MED",
-    "price": 5700000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -1330,7 +1330,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEF",
-    "price": 6000000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -1339,7 +1339,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEL",
-    "price": 5300000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -1348,7 +1348,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEL",
-    "price": 6100000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -1357,7 +1357,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEF",
-    "price": 4800000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -1366,7 +1366,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "POR",
-    "price": 4600000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -1375,7 +1375,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEL",
-    "price": 5800000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -1384,7 +1384,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEF",
-    "price": 4100000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -1393,7 +1393,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "DEL",
-    "price": 6300000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -1402,7 +1402,7 @@ export const PLAYERS = [
     "country": "Bosnia And Herzegovina",
     "teamCode": "BIH",
     "position": "MED",
-    "price": 4900000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -1411,7 +1411,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "POR",
-    "price": 5800000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -1420,7 +1420,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "MED",
-    "price": 6800000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -1429,7 +1429,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEF",
-    "price": 6900000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -1438,7 +1438,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEF",
-    "price": 8900000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -1447,7 +1447,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "MED",
-    "price": 7400000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -1456,7 +1456,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEF",
-    "price": 4700000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -1465,7 +1465,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEL",
-    "price": 13400000,
+    "price": 10700000,
     "points": 0
   },
   {
@@ -1474,7 +1474,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "MED",
-    "price": 9100000,
+    "price": 8100000,
     "points": 0
   },
   {
@@ -1483,7 +1483,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEL",
-    "price": 8600000,
+    "price": 8300000,
     "points": 0
   },
   {
@@ -1501,7 +1501,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEL",
-    "price": 13000000,
+    "price": 10200000,
     "points": 0
   },
   {
@@ -1519,7 +1519,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEF",
-    "price": 4900000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -1528,7 +1528,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEF",
-    "price": 6800000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -1537,7 +1537,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEF",
-    "price": 5400000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -1546,7 +1546,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEF",
-    "price": 4500000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -1555,7 +1555,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "MED",
-    "price": 5500000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -1564,7 +1564,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "MED",
-    "price": 8800000,
+    "price": 8000000,
     "points": 0
   },
   {
@@ -1573,7 +1573,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEL",
-    "price": 8100000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -1582,7 +1582,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "MED",
-    "price": 13800000,
+    "price": 10400000,
     "points": 0
   },
   {
@@ -1591,7 +1591,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEL",
-    "price": 9000000,
+    "price": 8400000,
     "points": 0
   },
   {
@@ -1600,7 +1600,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEL",
-    "price": 10100000,
+    "price": 9000000,
     "points": 0
   },
   {
@@ -1609,7 +1609,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "POR",
-    "price": 4700000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -1618,7 +1618,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEF",
-    "price": 6400000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -1627,7 +1627,7 @@ export const PLAYERS = [
     "country": "Brazil",
     "teamCode": "BRA",
     "position": "DEL",
-    "price": 9400000,
+    "price": 8600000,
     "points": 0
   },
   {
@@ -1663,7 +1663,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "DEF",
-    "price": 5500000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -1681,7 +1681,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "DEF",
-    "price": 5600000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -1690,7 +1690,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "MED",
-    "price": 6900000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -1699,7 +1699,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "MED",
-    "price": 6800000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -1708,7 +1708,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "MED",
-    "price": 6400000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -1717,7 +1717,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "DEL",
-    "price": 8800000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -1726,7 +1726,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "MED",
-    "price": 5900000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -1735,7 +1735,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "MED",
-    "price": 5700000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -1744,7 +1744,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "POR",
-    "price": 4500000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -1753,7 +1753,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "DEF",
-    "price": 6000000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -1762,7 +1762,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "MED",
-    "price": 6200000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -1771,7 +1771,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "MED",
-    "price": 5900000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -1780,7 +1780,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "MED",
-    "price": 5200000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -1789,7 +1789,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "MED",
-    "price": 5200000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -1798,7 +1798,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "MED",
-    "price": 6100000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -1807,7 +1807,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "DEL",
-    "price": 9200000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -1816,7 +1816,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "DEL",
-    "price": 6200000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -1834,7 +1834,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "DEF",
-    "price": 4600000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -1843,7 +1843,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "POR",
-    "price": 4400000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -1852,7 +1852,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "DEF",
-    "price": 4700000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -1861,7 +1861,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "DEF",
-    "price": 5700000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -1870,7 +1870,7 @@ export const PLAYERS = [
     "country": "Cabo Verde",
     "teamCode": "CPV",
     "position": "MED",
-    "price": 5800000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -1879,7 +1879,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "POR",
-    "price": 4900000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -1888,7 +1888,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEF",
-    "price": 7000000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -1897,7 +1897,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEF",
-    "price": 4900000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -1906,7 +1906,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEF",
-    "price": 4400000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -1915,7 +1915,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEF",
-    "price": 4700000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -1924,7 +1924,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "MED",
-    "price": 6200000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -1933,7 +1933,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "MED",
-    "price": 8100000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -1942,7 +1942,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "MED",
-    "price": 8200000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -1951,7 +1951,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEL",
-    "price": 15300000,
+    "price": 10100000,
     "points": 0
   },
   {
@@ -1960,7 +1960,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEL",
-    "price": 18000000,
+    "price": 12900000,
     "points": 0
   },
   {
@@ -1969,7 +1969,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "MED",
-    "price": 7100000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -1978,7 +1978,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEL",
-    "price": 7500000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -1987,7 +1987,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEF",
-    "price": 6300000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -1996,7 +1996,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "MED",
-    "price": 8800000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -2005,7 +2005,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEF",
-    "price": 5600000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -2023,7 +2023,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEL",
-    "price": 10500000,
+    "price": 8000000,
     "points": 0
   },
   {
@@ -2032,7 +2032,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "POR",
-    "price": 4100000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -2041,7 +2041,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEF",
-    "price": 12100000,
+    "price": 8200000,
     "points": 0
   },
   {
@@ -2050,7 +2050,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEL",
-    "price": 7100000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -2059,7 +2059,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "MED",
-    "price": 6300000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -2068,7 +2068,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEF",
-    "price": 6400000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -2077,7 +2077,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEF",
-    "price": 5800000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -2086,7 +2086,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEL",
-    "price": 7900000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -2095,7 +2095,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "MED",
-    "price": 6200000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -2104,7 +2104,7 @@ export const PLAYERS = [
     "country": "Canada",
     "teamCode": "CAN",
     "position": "DEL",
-    "price": 7000000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -2122,7 +2122,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "DEF",
-    "price": 7300000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -2131,7 +2131,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "DEF",
-    "price": 7100000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -2140,7 +2140,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "DEF",
-    "price": 4400000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -2149,7 +2149,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "MED",
-    "price": 7200000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -2158,7 +2158,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "MED",
-    "price": 8300000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -2167,7 +2167,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "DEL",
-    "price": 17100000,
+    "price": 12000000,
     "points": 0
   },
   {
@@ -2176,7 +2176,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "MED",
-    "price": 7700000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -2185,7 +2185,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "DEL",
-    "price": 7400000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -2194,7 +2194,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "MED",
-    "price": 9900000,
+    "price": 8000000,
     "points": 0
   },
   {
@@ -2203,7 +2203,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "MED",
-    "price": 9700000,
+    "price": 8100000,
     "points": 0
   },
   {
@@ -2221,7 +2221,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "DEF",
-    "price": 9300000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -2230,7 +2230,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "DEF",
-    "price": 6200000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -2248,7 +2248,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "MED",
-    "price": 8900000,
+    "price": 7500000,
     "points": 0
   },
   {
@@ -2257,7 +2257,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "DEF",
-    "price": 5400000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -2275,7 +2275,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "DEL",
-    "price": 8500000,
+    "price": 7900000,
     "points": 0
   },
   {
@@ -2284,7 +2284,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "MED",
-    "price": 7300000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -2293,7 +2293,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "DEL",
-    "price": 7800000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -2311,7 +2311,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "DEF",
-    "price": 8500000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -2329,7 +2329,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "DEL",
-    "price": 9700000,
+    "price": 8300000,
     "points": 0
   },
   {
@@ -2338,7 +2338,7 @@ export const PLAYERS = [
     "country": "Colombia",
     "teamCode": "COL",
     "position": "DEL",
-    "price": 7700000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -2347,7 +2347,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "POR",
-    "price": 4400000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -2356,7 +2356,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEF",
-    "price": 4900000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -2365,7 +2365,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEF",
-    "price": 4700000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -2374,7 +2374,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEF",
-    "price": 5400000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -2383,7 +2383,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEF",
-    "price": 4800000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -2392,7 +2392,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "MED",
-    "price": 5100000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -2401,7 +2401,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "MED",
-    "price": 6600000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -2410,7 +2410,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "MED",
-    "price": 6500000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -2419,7 +2419,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEL",
-    "price": 5600000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -2428,7 +2428,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "MED",
-    "price": 7500000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -2437,7 +2437,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEL",
-    "price": 4600000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -2446,7 +2446,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEF",
-    "price": 5000000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -2455,7 +2455,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEL",
-    "price": 11000000,
+    "price": 7500000,
     "points": 0
   },
   {
@@ -2464,7 +2464,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "MED",
-    "price": 5200000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -2473,7 +2473,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "MED",
-    "price": 5200000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -2482,7 +2482,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "POR",
-    "price": 4500000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -2491,7 +2491,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEL",
-    "price": 8100000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -2500,7 +2500,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "MED",
-    "price": 6200000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -2509,7 +2509,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEL",
-    "price": 6000000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -2518,7 +2518,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEL",
-    "price": 9200000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -2536,7 +2536,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEF",
-    "price": 8500000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -2545,7 +2545,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEL",
-    "price": 6700000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -2554,7 +2554,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEF",
-    "price": 5300000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -2563,7 +2563,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "MED",
-    "price": 6800000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -2572,7 +2572,7 @@ export const PLAYERS = [
     "country": "Congo DR",
     "teamCode": "COD",
     "position": "DEF",
-    "price": 5200000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -2581,7 +2581,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "POR",
-    "price": 5500000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -2590,7 +2590,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEF",
-    "price": 5300000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -2599,7 +2599,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEF",
-    "price": 5500000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -2608,7 +2608,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "MED",
-    "price": 4700000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -2617,7 +2617,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEF",
-    "price": 6300000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -2626,7 +2626,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "MED",
-    "price": 7600000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -2635,7 +2635,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEF",
-    "price": 5900000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -2644,7 +2644,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "MED",
-    "price": 12600000,
+    "price": 8600000,
     "points": 0
   },
   {
@@ -2653,7 +2653,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEL",
-    "price": 5300000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -2662,7 +2662,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEL",
-    "price": 8600000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -2671,7 +2671,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEL",
-    "price": 6200000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -2680,7 +2680,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEL",
-    "price": 5300000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -2689,7 +2689,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEF",
-    "price": 5000000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -2698,7 +2698,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEL",
-    "price": 8100000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -2707,7 +2707,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEL",
-    "price": 8400000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -2716,7 +2716,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "POR",
-    "price": 4500000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -2725,7 +2725,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEF",
-    "price": 6100000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -2734,7 +2734,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "MED",
-    "price": 10300000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -2743,7 +2743,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEL",
-    "price": 9900000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -2752,7 +2752,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEF",
-    "price": 6100000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -2761,7 +2761,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEF",
-    "price": 5700000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -2770,7 +2770,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEL",
-    "price": 8100000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -2779,7 +2779,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "POR",
-    "price": 4600000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -2788,7 +2788,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "DEL",
-    "price": 5800000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -2797,7 +2797,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "MED",
-    "price": 5500000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -2806,7 +2806,7 @@ export const PLAYERS = [
     "country": "Côte D'Ivoire",
     "teamCode": "CIV",
     "position": "MED",
-    "price": 4500000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -2815,7 +2815,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "POR",
-    "price": 6500000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -2824,7 +2824,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "DEF",
-    "price": 6800000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -2842,7 +2842,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "DEF",
-    "price": 9100000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -2851,7 +2851,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "DEF",
-    "price": 7100000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -2860,7 +2860,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "DEF",
-    "price": 6900000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -2869,7 +2869,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "MED",
-    "price": 6300000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -2878,7 +2878,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "MED",
-    "price": 8300000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -2887,7 +2887,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "DEL",
-    "price": 9900000,
+    "price": 8700000,
     "points": 0
   },
   {
@@ -2896,7 +2896,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "MED",
-    "price": 7200000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -2905,7 +2905,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "DEL",
-    "price": 5900000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -2914,7 +2914,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "POR",
-    "price": 5300000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -2923,7 +2923,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "MED",
-    "price": 11900000,
+    "price": 9200000,
     "points": 0
   },
   {
@@ -2932,7 +2932,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "DEL",
-    "price": 7200000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -2941,7 +2941,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "MED",
-    "price": 11800000,
+    "price": 8900000,
     "points": 0
   },
   {
@@ -2950,7 +2950,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "MED",
-    "price": 6700000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -2959,7 +2959,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "MED",
-    "price": 6700000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -2968,7 +2968,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "DEF",
-    "price": 7100000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -2977,7 +2977,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "MED",
-    "price": 7300000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -2986,7 +2986,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "DEL",
-    "price": 7700000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -2995,7 +2995,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "MED",
-    "price": 6800000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -3004,7 +3004,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "DEF",
-    "price": 5500000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -3013,7 +3013,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "POR",
-    "price": 5400000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -3022,7 +3022,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "DEL",
-    "price": 7900000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -3031,7 +3031,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "DEF",
-    "price": 6500000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -3040,7 +3040,7 @@ export const PLAYERS = [
     "country": "Croatia",
     "teamCode": "CRO",
     "position": "DEL",
-    "price": 7500000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -3058,7 +3058,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEF",
-    "price": 4900000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -3067,7 +3067,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEF",
-    "price": 4600000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -3076,7 +3076,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEF",
-    "price": 5500000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -3085,7 +3085,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEF",
-    "price": 5400000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -3094,7 +3094,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "MED",
-    "price": 6200000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -3103,7 +3103,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "MED",
-    "price": 10600000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -3112,7 +3112,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "MED",
-    "price": 6100000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -3121,7 +3121,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEL",
-    "price": 4400000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -3130,7 +3130,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "MED",
-    "price": 6700000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -3139,7 +3139,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEL",
-    "price": 7700000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -3148,7 +3148,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEL",
-    "price": 6300000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -3157,7 +3157,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEL",
-    "price": 5700000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -3166,7 +3166,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEL",
-    "price": 7300000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -3175,7 +3175,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "MED",
-    "price": 5800000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -3184,7 +3184,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEL",
-    "price": 8100000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -3193,7 +3193,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEL",
-    "price": 5000000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -3202,7 +3202,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEF",
-    "price": 4900000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -3211,7 +3211,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEL",
-    "price": 8200000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -3220,7 +3220,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEF",
-    "price": 4200000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -3229,7 +3229,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "MED",
-    "price": 7100000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -3238,7 +3238,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "MED",
-    "price": 6000000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -3247,7 +3247,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEF",
-    "price": 4600000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -3256,7 +3256,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "DEF",
-    "price": 4300000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -3265,7 +3265,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "POR",
-    "price": 4400000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -3274,7 +3274,7 @@ export const PLAYERS = [
     "country": "Curaçao",
     "teamCode": "CUW",
     "position": "POR",
-    "price": 4500000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -3283,7 +3283,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "POR",
-    "price": 5600000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -3292,7 +3292,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEF",
-    "price": 6700000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -3301,7 +3301,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEF",
-    "price": 5300000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -3310,7 +3310,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEF",
-    "price": 6500000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -3319,7 +3319,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEF",
-    "price": 5700000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -3337,7 +3337,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEF",
-    "price": 9000000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -3346,7 +3346,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "MED",
-    "price": 6300000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -3355,7 +3355,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEL",
-    "price": 8900000,
+    "price": 7500000,
     "points": 0
   },
   {
@@ -3364,7 +3364,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEL",
-    "price": 15300000,
+    "price": 10400000,
     "points": 0
   },
   {
@@ -3373,7 +3373,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEL",
-    "price": 8300000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -3382,7 +3382,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "MED",
-    "price": 7500000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -3391,7 +3391,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEL",
-    "price": 9900000,
+    "price": 8300000,
     "points": 0
   },
   {
@@ -3400,7 +3400,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEF",
-    "price": 6500000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -3409,7 +3409,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEL",
-    "price": 9500000,
+    "price": 8000000,
     "points": 0
   },
   {
@@ -3418,7 +3418,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "POR",
-    "price": 4600000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -3427,7 +3427,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "MED",
-    "price": 8000000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -3436,7 +3436,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "MED",
-    "price": 7500000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -3445,7 +3445,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEL",
-    "price": 8800000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -3454,7 +3454,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEF",
-    "price": 4400000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -3463,7 +3463,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEF",
-    "price": 6700000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -3472,7 +3472,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "MED",
-    "price": 12900000,
+    "price": 9100000,
     "points": 0
   },
   {
@@ -3508,7 +3508,7 @@ export const PLAYERS = [
     "country": "Czechia",
     "teamCode": "CZE",
     "position": "DEL",
-    "price": 6200000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -3526,7 +3526,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "DEF",
-    "price": 8500000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -3535,7 +3535,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "DEF",
-    "price": 7900000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -3544,7 +3544,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "DEF",
-    "price": 5400000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -3553,7 +3553,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "MED",
-    "price": 6900000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -3562,7 +3562,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "DEF",
-    "price": 7400000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -3571,7 +3571,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "DEF",
-    "price": 8600000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -3580,7 +3580,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "MED",
-    "price": 5800000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -3589,7 +3589,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "DEL",
-    "price": 8600000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -3598,7 +3598,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "MED",
-    "price": 6100000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -3607,7 +3607,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "DEL",
-    "price": 8300000,
+    "price": 7500000,
     "points": 0
   },
   {
@@ -3616,7 +3616,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "POR",
-    "price": 5200000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -3625,7 +3625,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "DEL",
-    "price": 7200000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -3634,7 +3634,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "MED",
-    "price": 6800000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -3643,7 +3643,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "MED",
-    "price": 7000000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -3652,7 +3652,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "DEL",
-    "price": 8600000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -3661,7 +3661,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "DEF",
-    "price": 6800000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -3679,7 +3679,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "DEL",
-    "price": 11200000,
+    "price": 9000000,
     "points": 0
   },
   {
@@ -3688,7 +3688,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "DEL",
-    "price": 7200000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -3697,7 +3697,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "MED",
-    "price": 8200000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -3706,7 +3706,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "POR",
-    "price": 4400000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -3715,7 +3715,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "MED",
-    "price": 9000000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -3724,7 +3724,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "DEL",
-    "price": 6000000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -3733,7 +3733,7 @@ export const PLAYERS = [
     "country": "Ecuador",
     "teamCode": "ECU",
     "position": "DEF",
-    "price": 6400000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -3760,7 +3760,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "DEF",
-    "price": 4500000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -3769,7 +3769,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "DEF",
-    "price": 5700000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -3778,7 +3778,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "DEF",
-    "price": 5800000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -3787,7 +3787,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "DEF",
-    "price": 6400000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -3796,7 +3796,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "DEF",
-    "price": 7700000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -3805,7 +3805,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "DEL",
-    "price": 15000000,
+    "price": 9900000,
     "points": 0
   },
   {
@@ -3814,7 +3814,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "MED",
-    "price": 6400000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -3823,7 +3823,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "DEL",
-    "price": 5100000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -3841,7 +3841,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "MED",
-    "price": 6300000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -3850,7 +3850,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "DEL",
-    "price": 6500000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -3859,7 +3859,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "DEF",
-    "price": 6600000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -3868,7 +3868,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "MED",
-    "price": 7900000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -3877,7 +3877,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "DEF",
-    "price": 4800000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -3895,7 +3895,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "MED",
-    "price": 5600000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -3904,7 +3904,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "MED",
-    "price": 5300000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -3913,7 +3913,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "MED",
-    "price": 7300000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -3922,7 +3922,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "DEL",
-    "price": 8400000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -3931,7 +3931,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "MED",
-    "price": 6800000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -3940,7 +3940,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "DEL",
-    "price": 12200000,
+    "price": 9000000,
     "points": 0
   },
   {
@@ -3949,7 +3949,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "POR",
-    "price": 5200000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -3958,7 +3958,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "DEF",
-    "price": 5500000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -3967,7 +3967,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "DEL",
-    "price": 8600000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -3976,7 +3976,7 @@ export const PLAYERS = [
     "country": "Egypt",
     "teamCode": "EGY",
     "position": "POR",
-    "price": 4900000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -3985,7 +3985,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "POR",
-    "price": 6300000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -3994,7 +3994,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "DEF",
-    "price": 7500000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -4003,7 +4003,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "DEF",
-    "price": 6100000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -4012,7 +4012,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "MED",
-    "price": 13100000,
+    "price": 10800000,
     "points": 0
   },
   {
@@ -4021,7 +4021,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "DEF",
-    "price": 7800000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -4030,7 +4030,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "DEF",
-    "price": 8200000,
+    "price": 7900000,
     "points": 0
   },
   {
@@ -4039,7 +4039,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "DEL",
-    "price": 16300000,
+    "price": 12500000,
     "points": 0
   },
   {
@@ -4048,7 +4048,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "MED",
-    "price": 6800000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -4066,7 +4066,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "MED",
-    "price": 10600000,
+    "price": 9100000,
     "points": 0
   },
   {
@@ -4075,7 +4075,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "DEL",
-    "price": 17100000,
+    "price": 13100000,
     "points": 0
   },
   {
@@ -4084,7 +4084,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "DEF",
-    "price": 6100000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -4093,7 +4093,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "POR",
-    "price": 5800000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -4102,7 +4102,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "MED",
-    "price": 4700000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -4120,7 +4120,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "MED",
-    "price": 6900000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -4129,7 +4129,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "MED",
-    "price": 7500000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -4138,7 +4138,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "DEL",
-    "price": 10200000,
+    "price": 9500000,
     "points": 0
   },
   {
@@ -4147,7 +4147,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "DEL",
-    "price": 10600000,
+    "price": 9000000,
     "points": 0
   },
   {
@@ -4156,7 +4156,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "DEL",
-    "price": 8900000,
+    "price": 8800000,
     "points": 0
   },
   {
@@ -4165,7 +4165,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "MED",
-    "price": 9100000,
+    "price": 8400000,
     "points": 0
   },
   {
@@ -4174,7 +4174,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "DEL",
-    "price": 7600000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -4183,7 +4183,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "POR",
-    "price": 5500000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -4192,7 +4192,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "DEF",
-    "price": 8000000,
+    "price": 7700000,
     "points": 0
   },
   {
@@ -4201,7 +4201,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "DEF",
-    "price": 6800000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -4210,7 +4210,7 @@ export const PLAYERS = [
     "country": "England",
     "teamCode": "ENG",
     "position": "DEF",
-    "price": 6000000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -4219,7 +4219,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "POR",
-    "price": 4300000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -4228,7 +4228,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "DEF",
-    "price": 6300000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -4237,7 +4237,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "DEF",
-    "price": 6100000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -4246,7 +4246,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "DEF",
-    "price": 9000000,
+    "price": 8300000,
     "points": 0
   },
   {
@@ -4255,7 +4255,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "DEF",
-    "price": 8300000,
+    "price": 8100000,
     "points": 0
   },
   {
@@ -4264,7 +4264,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "MED",
-    "price": 7700000,
+    "price": 7900000,
     "points": 0
   },
   {
@@ -4273,7 +4273,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "DEL",
-    "price": 12600000,
+    "price": 10600000,
     "points": 0
   },
   {
@@ -4282,7 +4282,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "MED",
-    "price": 10300000,
+    "price": 9300000,
     "points": 0
   },
   {
@@ -4291,7 +4291,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "DEL",
-    "price": 10000000,
+    "price": 9200000,
     "points": 0
   },
   {
@@ -4309,7 +4309,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "DEL",
-    "price": 12600000,
+    "price": 10600000,
     "points": 0
   },
   {
@@ -4318,7 +4318,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "DEL",
-    "price": 9200000,
+    "price": 8500000,
     "points": 0
   },
   {
@@ -4327,7 +4327,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "MED",
-    "price": 5800000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -4336,7 +4336,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "MED",
-    "price": 10700000,
+    "price": 8900000,
     "points": 0
   },
   {
@@ -4354,7 +4354,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "POR",
-    "price": 6300000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -4363,7 +4363,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "DEF",
-    "price": 7800000,
+    "price": 7700000,
     "points": 0
   },
   {
@@ -4372,7 +4372,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "MED",
-    "price": 6600000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -4381,7 +4381,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "DEF",
-    "price": 8700000,
+    "price": 8000000,
     "points": 0
   },
   {
@@ -4390,7 +4390,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "DEL",
-    "price": 8800000,
+    "price": 8300000,
     "points": 0
   },
   {
@@ -4399,7 +4399,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "DEF",
-    "price": 6900000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -4408,7 +4408,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "DEL",
-    "price": 8300000,
+    "price": 8200000,
     "points": 0
   },
   {
@@ -4417,7 +4417,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "POR",
-    "price": 5400000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -4426,7 +4426,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "MED",
-    "price": 8200000,
+    "price": 7700000,
     "points": 0
   },
   {
@@ -4435,7 +4435,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "MED",
-    "price": 8300000,
+    "price": 8100000,
     "points": 0
   },
   {
@@ -4444,7 +4444,7 @@ export const PLAYERS = [
     "country": "France",
     "teamCode": "FRA",
     "position": "DEF",
-    "price": 6700000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -4462,7 +4462,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "DEF",
-    "price": 7200000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -4480,7 +4480,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "DEF",
-    "price": 7000000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -4489,7 +4489,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "MED",
-    "price": 7000000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -4498,7 +4498,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "DEF",
-    "price": 12000000,
+    "price": 9100000,
     "points": 0
   },
   {
@@ -4507,7 +4507,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "DEL",
-    "price": 18000000,
+    "price": 13700000,
     "points": 0
   },
   {
@@ -4516,7 +4516,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "MED",
-    "price": 13200000,
+    "price": 9800000,
     "points": 0
   },
   {
@@ -4525,7 +4525,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "MED",
-    "price": 7800000,
+    "price": 7500000,
     "points": 0
   },
   {
@@ -4534,7 +4534,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "MED",
-    "price": 11500000,
+    "price": 9000000,
     "points": 0
   },
   {
@@ -4543,7 +4543,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "DEL",
-    "price": 10200000,
+    "price": 9000000,
     "points": 0
   },
   {
@@ -4561,7 +4561,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "MED",
-    "price": 4300000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -4570,7 +4570,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "DEL",
-    "price": 6800000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -4579,7 +4579,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "DEF",
-    "price": 7600000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -4588,7 +4588,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "MED",
-    "price": 7000000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -4597,7 +4597,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "MED",
-    "price": 11900000,
+    "price": 9200000,
     "points": 0
   },
   {
@@ -4606,7 +4606,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "DEF",
-    "price": 6500000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -4615,7 +4615,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "MED",
-    "price": 14100000,
+    "price": 10200000,
     "points": 0
   },
   {
@@ -4624,7 +4624,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "MED",
-    "price": 7300000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -4633,7 +4633,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "POR",
-    "price": 5400000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -4642,7 +4642,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "DEF",
-    "price": 7500000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -4651,7 +4651,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "MED",
-    "price": 8400000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -4660,7 +4660,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "DEF",
-    "price": 6300000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -4678,7 +4678,7 @@ export const PLAYERS = [
     "country": "Germany",
     "teamCode": "GER",
     "position": "DEL",
-    "price": 11700000,
+    "price": 9600000,
     "points": 0
   },
   {
@@ -4687,7 +4687,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "POR",
-    "price": 5600000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -4696,7 +4696,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEF",
-    "price": 6700000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -4705,7 +4705,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "MED",
-    "price": 5500000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -4714,7 +4714,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEF",
-    "price": 5200000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -4723,7 +4723,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "MED",
-    "price": 9800000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -4732,7 +4732,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEF",
-    "price": 5400000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -4741,7 +4741,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEL",
-    "price": 7800000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -4750,7 +4750,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "MED",
-    "price": 5900000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -4759,7 +4759,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEL",
-    "price": 9900000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -4768,7 +4768,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEL",
-    "price": 7400000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -4777,7 +4777,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "MED",
-    "price": 8300000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -4786,7 +4786,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "POR",
-    "price": 5000000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -4795,7 +4795,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEL",
-    "price": 6100000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -4804,7 +4804,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEF",
-    "price": 6700000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -4813,7 +4813,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "MED",
-    "price": 6300000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -4831,7 +4831,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEF",
-    "price": 6400000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -4840,7 +4840,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEF",
-    "price": 6400000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -4849,7 +4849,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEL",
-    "price": 5700000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -4858,7 +4858,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "MED",
-    "price": 6000000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -4867,7 +4867,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEF",
-    "price": 5100000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -4876,7 +4876,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEL",
-    "price": 7800000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -4885,7 +4885,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEF",
-    "price": 4700000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -4894,7 +4894,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEL",
-    "price": 8100000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -4903,7 +4903,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEL",
-    "price": 6000000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -4912,7 +4912,7 @@ export const PLAYERS = [
     "country": "Ghana",
     "teamCode": "GHA",
     "position": "DEF",
-    "price": 5600000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -4930,7 +4930,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEF",
-    "price": 5500000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -4957,7 +4957,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEF",
-    "price": 4900000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -4966,7 +4966,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "MED",
-    "price": 5200000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -4975,7 +4975,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEL",
-    "price": 9000000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -4984,7 +4984,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEF",
-    "price": 5200000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -4993,7 +4993,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEL",
-    "price": 12600000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -5002,7 +5002,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "MED",
-    "price": 5100000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -5011,7 +5011,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEL",
-    "price": 10000000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -5020,7 +5020,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "POR",
-    "price": 4700000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -5029,7 +5029,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEF",
-    "price": 4500000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -5038,7 +5038,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEF",
-    "price": 5100000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -5047,7 +5047,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEL",
-    "price": 7200000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -5056,7 +5056,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEL",
-    "price": 5900000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -5065,7 +5065,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "MED",
-    "price": 8100000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -5074,7 +5074,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEL",
-    "price": 7100000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -5083,7 +5083,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEL",
-    "price": 5700000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -5092,7 +5092,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEL",
-    "price": 15300000,
+    "price": 8300000,
     "points": 0
   },
   {
@@ -5101,7 +5101,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEL",
-    "price": 5700000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -5110,7 +5110,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEF",
-    "price": 5300000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -5119,7 +5119,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "POR",
-    "price": 4400000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -5128,7 +5128,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "DEF",
-    "price": 4900000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -5137,7 +5137,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "MED",
-    "price": 5200000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -5146,7 +5146,7 @@ export const PLAYERS = [
     "country": "Haiti",
     "teamCode": "HAI",
     "position": "MED",
-    "price": 4600000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -5155,7 +5155,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "POR",
-    "price": 5300000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -5164,7 +5164,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "DEF",
-    "price": 6500000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -5173,7 +5173,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "DEF",
-    "price": 5000000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -5191,7 +5191,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "DEF",
-    "price": 5700000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -5200,7 +5200,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "MED",
-    "price": 8800000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -5209,7 +5209,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "MED",
-    "price": 10700000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -5218,7 +5218,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "MED",
-    "price": 12500000,
+    "price": 8800000,
     "points": 0
   },
   {
@@ -5227,7 +5227,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "DEL",
-    "price": 12600000,
+    "price": 12200000,
     "points": 0
   },
   {
@@ -5236,7 +5236,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "DEL",
-    "price": 11700000,
+    "price": 8600000,
     "points": 0
   },
   {
@@ -5245,7 +5245,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "DEL",
-    "price": 6300000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -5254,7 +5254,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "POR",
-    "price": 4600000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -5263,7 +5263,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "DEF",
-    "price": 6800000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -5272,7 +5272,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "MED",
-    "price": 6400000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -5281,7 +5281,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "MED",
-    "price": 5900000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -5290,7 +5290,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "MED",
-    "price": 8800000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -5299,7 +5299,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "DEF",
-    "price": 6400000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -5308,7 +5308,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "DEL",
-    "price": 9500000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -5317,7 +5317,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "DEF",
-    "price": 5100000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -5326,7 +5326,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "DEL",
-    "price": 6900000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -5335,7 +5335,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "MED",
-    "price": 6500000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -5353,7 +5353,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "DEF",
-    "price": 4300000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -5362,7 +5362,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "DEL",
-    "price": 6200000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -5371,7 +5371,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "DEF",
-    "price": 5000000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -5380,7 +5380,7 @@ export const PLAYERS = [
     "country": "IR Iran",
     "teamCode": "IRN",
     "position": "MED",
-    "price": 4900000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -5389,7 +5389,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "POR",
-    "price": 4200000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -5407,7 +5407,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "DEF",
-    "price": 5900000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -5416,7 +5416,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "DEF",
-    "price": 6000000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -5425,7 +5425,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "DEF",
-    "price": 5700000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -5434,7 +5434,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "DEF",
-    "price": 5800000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -5443,7 +5443,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "MED",
-    "price": 6100000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -5452,7 +5452,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "MED",
-    "price": 10000000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -5461,7 +5461,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "DEL",
-    "price": 8300000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -5470,7 +5470,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "DEL",
-    "price": 16400000,
+    "price": 9700000,
     "points": 0
   },
   {
@@ -5479,7 +5479,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "DEL",
-    "price": 5200000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -5497,7 +5497,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "DEL",
-    "price": 5500000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -5506,7 +5506,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "MED",
-    "price": 6100000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -5515,7 +5515,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "DEF",
-    "price": 5000000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -5524,7 +5524,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "MED",
-    "price": 7300000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -5533,7 +5533,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "DEL",
-    "price": 6700000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -5542,7 +5542,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "DEL",
-    "price": 15300000,
+    "price": 9200000,
     "points": 0
   },
   {
@@ -5551,7 +5551,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "MED",
-    "price": 5500000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -5560,7 +5560,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "MED",
-    "price": 4900000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -5569,7 +5569,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "DEL",
-    "price": 5400000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -5578,7 +5578,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "POR",
-    "price": 4600000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -5587,7 +5587,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "DEF",
-    "price": 6000000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -5596,7 +5596,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "MED",
-    "price": 5400000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -5605,7 +5605,7 @@ export const PLAYERS = [
     "country": "Iraq",
     "teamCode": "IRQ",
     "position": "DEF",
-    "price": 5300000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -5623,7 +5623,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "POR",
-    "price": 5500000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -5632,7 +5632,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "DEF",
-    "price": 7500000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -5641,7 +5641,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "DEF",
-    "price": 4100000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -5650,7 +5650,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "DEF",
-    "price": 8000000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -5659,7 +5659,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "DEF",
-    "price": 4800000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -5668,7 +5668,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "DEL",
-    "price": 10100000,
+    "price": 8500000,
     "points": 0
   },
   {
@@ -5677,7 +5677,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "MED",
-    "price": 11100000,
+    "price": 8700000,
     "points": 0
   },
   {
@@ -5686,7 +5686,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "MED",
-    "price": 10900000,
+    "price": 8700000,
     "points": 0
   },
   {
@@ -5695,7 +5695,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "DEL",
-    "price": 6300000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -5704,7 +5704,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "MED",
-    "price": 12400000,
+    "price": 9200000,
     "points": 0
   },
   {
@@ -5713,7 +5713,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "MED",
-    "price": 9100000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -5722,7 +5722,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "POR",
-    "price": 5600000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -5731,7 +5731,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "MED",
-    "price": 12800000,
+    "price": 9500000,
     "points": 0
   },
   {
@@ -5740,7 +5740,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "MED",
-    "price": 10300000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -5749,7 +5749,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "MED",
-    "price": 12800000,
+    "price": 9300000,
     "points": 0
   },
   {
@@ -5758,7 +5758,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "DEF",
-    "price": 5900000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -5767,7 +5767,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "MED",
-    "price": 6600000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -5776,7 +5776,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "DEL",
-    "price": 15200000,
+    "price": 10800000,
     "points": 0
   },
   {
@@ -5785,7 +5785,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "DEL",
-    "price": 12600000,
+    "price": 9500000,
     "points": 0
   },
   {
@@ -5794,7 +5794,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "DEF",
-    "price": 6300000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -5803,7 +5803,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "DEF",
-    "price": 7100000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -5812,7 +5812,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "DEF",
-    "price": 7700000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -5821,7 +5821,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "POR",
-    "price": 5400000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -5830,7 +5830,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "MED",
-    "price": 6800000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -5839,7 +5839,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "DEF",
-    "price": 5400000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -5848,7 +5848,7 @@ export const PLAYERS = [
     "country": "Japan",
     "teamCode": "JPN",
     "position": "DEL",
-    "price": 6300000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -5857,7 +5857,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "POR",
-    "price": 4500000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -5866,7 +5866,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "DEF",
-    "price": 5700000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -5875,7 +5875,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "DEF",
-    "price": 5100000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -5884,7 +5884,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "DEF",
-    "price": 5300000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -5893,7 +5893,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "DEF",
-    "price": 6800000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -5902,7 +5902,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "MED",
-    "price": 5600000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -5911,7 +5911,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "DEL",
-    "price": 8200000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -5920,7 +5920,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "MED",
-    "price": 7700000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -5929,7 +5929,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "DEL",
-    "price": 17400000,
+    "price": 9600000,
     "points": 0
   },
   {
@@ -5938,7 +5938,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "DEL",
-    "price": 15300000,
+    "price": 8800000,
     "points": 0
   },
   {
@@ -5947,7 +5947,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "DEL",
-    "price": 5200000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -5965,7 +5965,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "DEL",
-    "price": 7500000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -5974,7 +5974,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "MED",
-    "price": 5000000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -5983,7 +5983,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "MED",
-    "price": 7800000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -5992,7 +5992,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "DEF",
-    "price": 5300000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -6010,7 +6010,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "MED",
-    "price": 4200000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -6019,7 +6019,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "DEF",
-    "price": 5900000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -6028,7 +6028,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "MED",
-    "price": 5800000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -6037,7 +6037,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "MED",
-    "price": 7900000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -6046,7 +6046,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "POR",
-    "price": 4800000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -6055,7 +6055,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "DEF",
-    "price": 5500000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -6064,7 +6064,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "DEL",
-    "price": 5200000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -6082,7 +6082,7 @@ export const PLAYERS = [
     "country": "Jordan",
     "teamCode": "JOR",
     "position": "DEF",
-    "price": 4600000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -6091,7 +6091,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "POR",
-    "price": 4400000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -6100,7 +6100,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "DEF",
-    "price": 6000000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -6109,7 +6109,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "MED",
-    "price": 6400000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -6118,7 +6118,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "DEF",
-    "price": 9300000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -6127,7 +6127,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "DEF",
-    "price": 5900000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -6136,7 +6136,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "MED",
-    "price": 10800000,
+    "price": 8200000,
     "points": 0
   },
   {
@@ -6154,7 +6154,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "MED",
-    "price": 8100000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -6163,7 +6163,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "DEL",
-    "price": 12500000,
+    "price": 9100000,
     "points": 0
   },
   {
@@ -6172,7 +6172,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "MED",
-    "price": 10800000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -6181,7 +6181,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "MED",
-    "price": 13200000,
+    "price": 8900000,
     "points": 0
   },
   {
@@ -6190,7 +6190,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "POR",
-    "price": 5000000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -6199,7 +6199,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "DEF",
-    "price": 6100000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -6208,7 +6208,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "DEF",
-    "price": 5800000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -6217,7 +6217,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "DEF",
-    "price": 5800000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -6226,7 +6226,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "DEF",
-    "price": 5700000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -6235,7 +6235,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "MED",
-    "price": 7000000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -6244,7 +6244,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "DEL",
-    "price": 10800000,
+    "price": 8500000,
     "points": 0
   },
   {
@@ -6253,7 +6253,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "MED",
-    "price": 11900000,
+    "price": 8800000,
     "points": 0
   },
   {
@@ -6262,7 +6262,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "MED",
-    "price": 6500000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -6280,7 +6280,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "DEF",
-    "price": 6800000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -6289,7 +6289,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "DEF",
-    "price": 5300000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -6298,7 +6298,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "MED",
-    "price": 8000000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -6307,7 +6307,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "MED",
-    "price": 7800000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -6316,7 +6316,7 @@ export const PLAYERS = [
     "country": "Korea Republic",
     "teamCode": "KOR",
     "position": "MED",
-    "price": 8400000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -6325,7 +6325,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "POR",
-    "price": 5800000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -6334,7 +6334,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEF",
-    "price": 8500000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -6343,7 +6343,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEF",
-    "price": 9200000,
+    "price": 7500000,
     "points": 0
   },
   {
@@ -6352,7 +6352,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEF",
-    "price": 11200000,
+    "price": 8600000,
     "points": 0
   },
   {
@@ -6361,7 +6361,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEF",
-    "price": 8600000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -6370,7 +6370,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "MED",
-    "price": 7200000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -6379,7 +6379,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "MED",
-    "price": 8500000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -6388,7 +6388,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "MED",
-    "price": 6200000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -6397,7 +6397,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEL",
-    "price": 9900000,
+    "price": 9500000,
     "points": 0
   },
   {
@@ -6406,7 +6406,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEL",
-    "price": 10900000,
+    "price": 8800000,
     "points": 0
   },
   {
@@ -6415,7 +6415,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEL",
-    "price": 10900000,
+    "price": 9000000,
     "points": 0
   },
   {
@@ -6424,7 +6424,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "POR",
-    "price": 4700000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -6433,7 +6433,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "POR",
-    "price": 4100000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -6442,7 +6442,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEL",
-    "price": 7100000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -6451,7 +6451,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEF",
-    "price": 7800000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -6460,7 +6460,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEL",
-    "price": 8600000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -6469,7 +6469,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "MED",
-    "price": 12000000,
+    "price": 8800000,
     "points": 0
   },
   {
@@ -6478,7 +6478,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "MED",
-    "price": 5200000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -6487,7 +6487,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "MED",
-    "price": 5300000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -6496,7 +6496,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEF",
-    "price": 5500000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -6505,7 +6505,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEL",
-    "price": 9100000,
+    "price": 8000000,
     "points": 0
   },
   {
@@ -6514,7 +6514,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEL",
-    "price": 7700000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -6523,7 +6523,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEF",
-    "price": 9300000,
+    "price": 7500000,
     "points": 0
   },
   {
@@ -6532,7 +6532,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "MED",
-    "price": 8500000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -6541,7 +6541,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "DEL",
-    "price": 11500000,
+    "price": 9400000,
     "points": 0
   },
   {
@@ -6550,7 +6550,7 @@ export const PLAYERS = [
     "country": "Mexico",
     "teamCode": "MEX",
     "position": "MED",
-    "price": 7200000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -6559,7 +6559,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "POR",
-    "price": 4500000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -6568,7 +6568,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "DEF",
-    "price": 13300000,
+    "price": 10000000,
     "points": 0
   },
   {
@@ -6577,7 +6577,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "DEF",
-    "price": 7700000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -6586,7 +6586,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "MED",
-    "price": 8300000,
+    "price": 7700000,
     "points": 0
   },
   {
@@ -6604,7 +6604,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "MED",
-    "price": 5200000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -6622,7 +6622,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "MED",
-    "price": 11800000,
+    "price": 9300000,
     "points": 0
   },
   {
@@ -6631,7 +6631,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "DEL",
-    "price": 11400000,
+    "price": 8800000,
     "points": 0
   },
   {
@@ -6640,7 +6640,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "DEL",
-    "price": 14800000,
+    "price": 10900000,
     "points": 0
   },
   {
@@ -6649,7 +6649,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "MED",
-    "price": 11900000,
+    "price": 9300000,
     "points": 0
   },
   {
@@ -6667,7 +6667,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "DEF",
-    "price": 5900000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -6685,7 +6685,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "MED",
-    "price": 5200000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -6694,7 +6694,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "MED",
-    "price": 5200000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -6703,7 +6703,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "DEL",
-    "price": 7000000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -6712,7 +6712,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "DEF",
-    "price": 6100000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -6721,7 +6721,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "DEF",
-    "price": 6400000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -6730,7 +6730,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "DEL",
-    "price": 12600000,
+    "price": 10600000,
     "points": 0
   },
   {
@@ -6739,7 +6739,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "DEL",
-    "price": 6300000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -6757,7 +6757,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "MED",
-    "price": 8000000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -6766,7 +6766,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "MED",
-    "price": 8000000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -6775,7 +6775,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "DEF",
-    "price": 5300000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -6784,7 +6784,7 @@ export const PLAYERS = [
     "country": "Morocco",
     "teamCode": "MAR",
     "position": "DEF",
-    "price": 6100000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -6793,7 +6793,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "POR",
-    "price": 5900000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -6802,7 +6802,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "DEF",
-    "price": 6900000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -6811,7 +6811,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "MED",
-    "price": 4700000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -6820,7 +6820,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "DEF",
-    "price": 8100000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -6829,7 +6829,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "DEF",
-    "price": 8800000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -6847,7 +6847,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "MED",
-    "price": 7100000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -6856,7 +6856,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "MED",
-    "price": 8200000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -6865,7 +6865,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "DEL",
-    "price": 10700000,
+    "price": 8100000,
     "points": 0
   },
   {
@@ -6883,7 +6883,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "DEL",
-    "price": 18000000,
+    "price": 13000000,
     "points": 0
   },
   {
@@ -6892,7 +6892,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "DEF",
-    "price": 7200000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -6901,7 +6901,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "POR",
-    "price": 5100000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -6910,7 +6910,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "MED",
-    "price": 11200000,
+    "price": 9200000,
     "points": 0
   },
   {
@@ -6919,7 +6919,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "DEF",
-    "price": 7400000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -6928,7 +6928,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "MED",
-    "price": 7400000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -6937,7 +6937,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "DEL",
-    "price": 9500000,
+    "price": 8700000,
     "points": 0
   },
   {
@@ -6946,7 +6946,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "DEL",
-    "price": 14900000,
+    "price": 11400000,
     "points": 0
   },
   {
@@ -6955,7 +6955,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "DEL",
-    "price": 8300000,
+    "price": 8100000,
     "points": 0
   },
   {
@@ -6964,7 +6964,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "MED",
-    "price": 8700000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -6973,7 +6973,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "MED",
-    "price": 9300000,
+    "price": 8400000,
     "points": 0
   },
   {
@@ -6982,7 +6982,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "DEF",
-    "price": 11300000,
+    "price": 8600000,
     "points": 0
   },
   {
@@ -7000,7 +7000,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "DEL",
-    "price": 7800000,
+    "price": 7700000,
     "points": 0
   },
   {
@@ -7009,7 +7009,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "DEF",
-    "price": 5100000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -7018,7 +7018,7 @@ export const PLAYERS = [
     "country": "Netherlands",
     "teamCode": "NED",
     "position": "MED",
-    "price": 7700000,
+    "price": 7500000,
     "points": 0
   },
   {
@@ -7036,7 +7036,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "DEF",
-    "price": 5100000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -7045,7 +7045,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "DEF",
-    "price": 4900000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -7054,7 +7054,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "DEF",
-    "price": 5700000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -7072,7 +7072,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "MED",
-    "price": 6500000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -7081,7 +7081,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "DEL",
-    "price": 6700000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -7090,7 +7090,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "MED",
-    "price": 7400000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -7099,7 +7099,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "DEL",
-    "price": 9900000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -7108,7 +7108,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "MED",
-    "price": 7200000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -7117,7 +7117,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "MED",
-    "price": 9700000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -7126,7 +7126,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "POR",
-    "price": 4200000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -7135,7 +7135,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "DEF",
-    "price": 6200000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -7144,7 +7144,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "MED",
-    "price": 5100000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -7153,7 +7153,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "DEF",
-    "price": 5500000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -7162,7 +7162,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "DEF",
-    "price": 5600000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -7171,7 +7171,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "DEL",
-    "price": 4400000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -7180,7 +7180,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "DEL",
-    "price": 9900000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -7189,7 +7189,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "MED",
-    "price": 6000000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -7198,7 +7198,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "MED",
-    "price": 8000000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -7207,7 +7207,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "DEL",
-    "price": 6300000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -7216,7 +7216,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "POR",
-    "price": 4600000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -7225,7 +7225,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "MED",
-    "price": 6100000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -7234,7 +7234,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "DEF",
-    "price": 5100000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -7243,7 +7243,7 @@ export const PLAYERS = [
     "country": "New Zealand",
     "teamCode": "NZL",
     "position": "MED",
-    "price": 4800000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -7261,7 +7261,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "POR",
-    "price": 4100000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -7270,7 +7270,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "MED",
-    "price": 6100000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -7279,7 +7279,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "DEF",
-    "price": 7800000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -7288,7 +7288,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "DEF",
-    "price": 7300000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -7297,7 +7297,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "DEF",
-    "price": 6900000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -7306,7 +7306,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "MED",
-    "price": 7200000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -7315,7 +7315,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "DEL",
-    "price": 15300000,
+    "price": 10500000,
     "points": 0
   },
   {
@@ -7324,7 +7324,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "MED",
-    "price": 8300000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -7333,7 +7333,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "DEL",
-    "price": 18000000,
+    "price": 17400000,
     "points": 0
   },
   {
@@ -7342,7 +7342,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "MED",
-    "price": 10400000,
+    "price": 8200000,
     "points": 0
   },
   {
@@ -7351,7 +7351,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "DEL",
-    "price": 10400000,
+    "price": 8300000,
     "points": 0
   },
   {
@@ -7360,7 +7360,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "POR",
-    "price": 4700000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -7369,7 +7369,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "POR",
-    "price": 5100000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -7378,7 +7378,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "MED",
-    "price": 6300000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -7387,7 +7387,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "DEF",
-    "price": 6900000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -7396,7 +7396,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "DEF",
-    "price": 6700000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -7405,7 +7405,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "DEF",
-    "price": 6200000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -7414,7 +7414,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "MED",
-    "price": 9100000,
+    "price": 7500000,
     "points": 0
   },
   {
@@ -7423,7 +7423,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "MED",
-    "price": 9900000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -7432,7 +7432,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "DEL",
-    "price": 10200000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -7441,7 +7441,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "MED",
-    "price": 6500000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -7450,7 +7450,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "MED",
-    "price": 7100000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -7459,7 +7459,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "MED",
-    "price": 7200000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -7468,7 +7468,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "DEF",
-    "price": 5800000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -7477,7 +7477,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "DEF",
-    "price": 5200000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -7486,7 +7486,7 @@ export const PLAYERS = [
     "country": "Norway",
     "teamCode": "NOR",
     "position": "DEL",
-    "price": 8100000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -7504,7 +7504,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "DEF",
-    "price": 6600000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -7513,7 +7513,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "DEF",
-    "price": 6100000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -7522,7 +7522,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "DEF",
-    "price": 7500000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -7531,7 +7531,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "DEF",
-    "price": 5300000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -7540,7 +7540,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "MED",
-    "price": 7300000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -7549,7 +7549,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "MED",
-    "price": 9400000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -7558,7 +7558,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "MED",
-    "price": 8200000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -7567,7 +7567,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "DEL",
-    "price": 8000000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -7576,7 +7576,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "MED",
-    "price": 12000000,
+    "price": 7700000,
     "points": 0
   },
   {
@@ -7585,7 +7585,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "MED",
-    "price": 7900000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -7603,7 +7603,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "DEF",
-    "price": 5900000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -7612,7 +7612,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "DEF",
-    "price": 6700000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -7621,7 +7621,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "DEF",
-    "price": 5800000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -7630,7 +7630,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "DEF",
-    "price": 6500000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -7639,7 +7639,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "DEL",
-    "price": 9300000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -7648,7 +7648,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "DEL",
-    "price": 6800000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -7657,7 +7657,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "MED",
-    "price": 4500000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -7666,7 +7666,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "MED",
-    "price": 4300000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -7675,7 +7675,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "MED",
-    "price": 7200000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -7684,7 +7684,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "POR",
-    "price": 4800000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -7693,7 +7693,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "DEF",
-    "price": 8700000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -7702,7 +7702,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "DEL",
-    "price": 6500000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -7720,7 +7720,7 @@ export const PLAYERS = [
     "country": "Panama",
     "teamCode": "PAN",
     "position": "DEF",
-    "price": 5300000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -7747,7 +7747,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "DEF",
-    "price": 7500000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -7756,7 +7756,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "DEF",
-    "price": 6000000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -7765,7 +7765,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "DEF",
-    "price": 4200000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -7774,7 +7774,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "DEF",
-    "price": 6200000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -7783,7 +7783,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "MED",
-    "price": 7300000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -7792,7 +7792,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "MED",
-    "price": 7300000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -7801,7 +7801,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "DEL",
-    "price": 9200000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -7810,7 +7810,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "MED",
-    "price": 8500000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -7819,7 +7819,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "MED",
-    "price": 6500000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -7828,7 +7828,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "POR",
-    "price": 5200000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -7846,7 +7846,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "MED",
-    "price": 6000000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -7855,7 +7855,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "DEF",
-    "price": 6800000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -7864,7 +7864,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "MED",
-    "price": 7100000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -7873,7 +7873,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "DEL",
-    "price": 8600000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -7882,7 +7882,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "DEL",
-    "price": 6400000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -7891,7 +7891,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "DEL",
-    "price": 8300000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -7900,7 +7900,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "MED",
-    "price": 6500000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -7909,7 +7909,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "DEL",
-    "price": 4500000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -7927,7 +7927,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "MED",
-    "price": 8000000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -7936,7 +7936,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "MED",
-    "price": 6400000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -7945,7 +7945,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "DEL",
-    "price": 6700000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -7954,7 +7954,7 @@ export const PLAYERS = [
     "country": "Paraguay",
     "teamCode": "PAR",
     "position": "DEF",
-    "price": 4700000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -7963,7 +7963,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "POR",
-    "price": 7000000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -7972,7 +7972,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEF",
-    "price": 5500000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -7981,7 +7981,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEF",
-    "price": 9500000,
+    "price": 8200000,
     "points": 0
   },
   {
@@ -7990,7 +7990,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEF",
-    "price": 6300000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -7999,7 +7999,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEF",
-    "price": 8800000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -8008,7 +8008,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "MED",
-    "price": 8500000,
+    "price": 7900000,
     "points": 0
   },
   {
@@ -8026,7 +8026,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "MED",
-    "price": 15300000,
+    "price": 12300000,
     "points": 0
   },
   {
@@ -8035,7 +8035,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEL",
-    "price": 13200000,
+    "price": 10500000,
     "points": 0
   },
   {
@@ -8044,7 +8044,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "MED",
-    "price": 13800000,
+    "price": 10200000,
     "points": 0
   },
   {
@@ -8053,7 +8053,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEL",
-    "price": 14400000,
+    "price": 11200000,
     "points": 0
   },
   {
@@ -8062,7 +8062,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "POR",
-    "price": 4000000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -8071,7 +8071,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEF",
-    "price": 6500000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -8080,7 +8080,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEF",
-    "price": 7900000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -8089,7 +8089,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "MED",
-    "price": 8100000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -8098,7 +8098,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEL",
-    "price": 9500000,
+    "price": 8700000,
     "points": 0
   },
   {
@@ -8107,7 +8107,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEL",
-    "price": 11000000,
+    "price": 9500000,
     "points": 0
   },
   {
@@ -8116,7 +8116,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEL",
-    "price": 9600000,
+    "price": 8800000,
     "points": 0
   },
   {
@@ -8125,7 +8125,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEL",
-    "price": 11600000,
+    "price": 9600000,
     "points": 0
   },
   {
@@ -8134,7 +8134,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEF",
-    "price": 9600000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -8143,7 +8143,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "MED",
-    "price": 8900000,
+    "price": 8200000,
     "points": 0
   },
   {
@@ -8152,7 +8152,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "POR",
-    "price": 4000000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -8161,7 +8161,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "MED",
-    "price": 8000000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -8170,7 +8170,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEF",
-    "price": 6400000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -8179,7 +8179,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEF",
-    "price": 8100000,
+    "price": 7500000,
     "points": 0
   },
   {
@@ -8188,7 +8188,7 @@ export const PLAYERS = [
     "country": "Portugal",
     "teamCode": "POR",
     "position": "DEL",
-    "price": 9100000,
+    "price": 8100000,
     "points": 0
   },
   {
@@ -8197,7 +8197,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "POR",
-    "price": 4600000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -8206,7 +8206,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEF",
-    "price": 5000000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -8224,7 +8224,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEF",
-    "price": 4700000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -8233,7 +8233,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEF",
-    "price": 6200000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -8242,7 +8242,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "MED",
-    "price": 4900000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -8251,7 +8251,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEL",
-    "price": 7800000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -8260,7 +8260,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEL",
-    "price": 5200000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -8269,7 +8269,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEL",
-    "price": 9400000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -8278,7 +8278,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEL",
-    "price": 9900000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -8287,7 +8287,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEL",
-    "price": 17100000,
+    "price": 10400000,
     "points": 0
   },
   {
@@ -8296,7 +8296,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "MED",
-    "price": 5800000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -8305,7 +8305,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEF",
-    "price": 4500000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -8314,7 +8314,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEF",
-    "price": 7900000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -8323,7 +8323,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEL",
-    "price": 8000000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -8332,7 +8332,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEF",
-    "price": 8300000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -8341,7 +8341,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "MED",
-    "price": 6100000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -8350,7 +8350,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEF",
-    "price": 4600000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -8359,7 +8359,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEL",
-    "price": 17100000,
+    "price": 12300000,
     "points": 0
   },
   {
@@ -8368,7 +8368,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "MED",
-    "price": 4700000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -8377,7 +8377,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "POR",
-    "price": 4700000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -8386,7 +8386,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "POR",
-    "price": 5700000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -8395,7 +8395,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "MED",
-    "price": 6600000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -8404,7 +8404,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEL",
-    "price": 4700000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -8413,7 +8413,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEF",
-    "price": 4600000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -8422,7 +8422,7 @@ export const PLAYERS = [
     "country": "Qatar",
     "teamCode": "QAT",
     "position": "DEL",
-    "price": 5400000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -8431,7 +8431,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "POR",
-    "price": 5700000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -8440,7 +8440,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEF",
-    "price": 6100000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -8449,7 +8449,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEF",
-    "price": 5700000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -8458,7 +8458,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEF",
-    "price": 6900000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -8467,7 +8467,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEF",
-    "price": 7500000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -8476,7 +8476,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "MED",
-    "price": 7800000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -8485,7 +8485,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "MED",
-    "price": 8700000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -8494,7 +8494,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEL",
-    "price": 7300000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -8503,7 +8503,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEL",
-    "price": 14800000,
+    "price": 9800000,
     "points": 0
   },
   {
@@ -8512,7 +8512,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEL",
-    "price": 9900000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -8521,7 +8521,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEL",
-    "price": 10500000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -8530,7 +8530,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEF",
-    "price": 7500000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -8539,7 +8539,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEF",
-    "price": 6300000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -8548,7 +8548,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEF",
-    "price": 4900000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -8557,7 +8557,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "MED",
-    "price": 6900000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -8566,7 +8566,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "MED",
-    "price": 6400000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -8575,7 +8575,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEL",
-    "price": 6700000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -8584,7 +8584,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "MED",
-    "price": 5200000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -8593,7 +8593,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEL",
-    "price": 13200000,
+    "price": 9100000,
     "points": 0
   },
   {
@@ -8602,7 +8602,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEL",
-    "price": 6900000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -8629,7 +8629,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "MED",
-    "price": 9700000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -8638,7 +8638,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEF",
-    "price": 5900000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -8647,7 +8647,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEF",
-    "price": 5700000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -8656,7 +8656,7 @@ export const PLAYERS = [
     "country": "Saudi Arabia",
     "teamCode": "KSA",
     "position": "DEF",
-    "price": 5200000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -8665,7 +8665,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "POR",
-    "price": 4800000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -8674,7 +8674,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEF",
-    "price": 6200000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -8683,7 +8683,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEF",
-    "price": 6900000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -8692,7 +8692,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "MED",
-    "price": 13200000,
+    "price": 9300000,
     "points": 0
   },
   {
@@ -8701,7 +8701,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEF",
-    "price": 4600000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -8710,7 +8710,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEF",
-    "price": 7600000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -8719,7 +8719,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "MED",
-    "price": 14100000,
+    "price": 9400000,
     "points": 0
   },
   {
@@ -8728,7 +8728,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "MED",
-    "price": 4800000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -8737,7 +8737,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEL",
-    "price": 10200000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -8746,7 +8746,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEL",
-    "price": 12500000,
+    "price": 9100000,
     "points": 0
   },
   {
@@ -8755,7 +8755,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "MED",
-    "price": 10100000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -8764,7 +8764,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "POR",
-    "price": 4300000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -8773,7 +8773,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEF",
-    "price": 6700000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -8782,7 +8782,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEL",
-    "price": 6300000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -8791,7 +8791,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEF",
-    "price": 6800000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -8800,7 +8800,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEF",
-    "price": 4800000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -8809,7 +8809,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEL",
-    "price": 6000000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -8818,7 +8818,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEL",
-    "price": 7400000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -8827,7 +8827,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "MED",
-    "price": 7200000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -8836,7 +8836,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEL",
-    "price": 8900000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -8854,7 +8854,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEF",
-    "price": 6800000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -8863,7 +8863,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "MED",
-    "price": 4900000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -8872,7 +8872,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEF",
-    "price": 6800000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -8881,7 +8881,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEL",
-    "price": 5600000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -8890,7 +8890,7 @@ export const PLAYERS = [
     "country": "Scotland",
     "teamCode": "SCO",
     "position": "DEF",
-    "price": 7000000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -8917,7 +8917,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "DEF",
-    "price": 5500000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -8926,7 +8926,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "DEF",
-    "price": 4700000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -8935,7 +8935,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "MED",
-    "price": 5400000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -8944,7 +8944,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "MED",
-    "price": 5100000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -8953,7 +8953,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "DEL",
-    "price": 5600000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -8962,7 +8962,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "MED",
-    "price": 9700000,
+    "price": 8000000,
     "points": 0
   },
   {
@@ -8971,7 +8971,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "DEL",
-    "price": 8600000,
+    "price": 8000000,
     "points": 0
   },
   {
@@ -8989,7 +8989,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "DEL",
-    "price": 11600000,
+    "price": 9400000,
     "points": 0
   },
   {
@@ -8998,7 +8998,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "DEL",
-    "price": 8100000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -9007,7 +9007,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "DEL",
-    "price": 9900000,
+    "price": 8700000,
     "points": 0
   },
   {
@@ -9016,7 +9016,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "DEF",
-    "price": 6800000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -9025,7 +9025,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "DEF",
-    "price": 8600000,
+    "price": 7700000,
     "points": 0
   },
   {
@@ -9043,7 +9043,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "MED",
-    "price": 8500000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -9052,7 +9052,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "DEL",
-    "price": 16300000,
+    "price": 11700000,
     "points": 0
   },
   {
@@ -9061,7 +9061,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "DEF",
-    "price": 5800000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -9070,7 +9070,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "DEL",
-    "price": 7300000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -9079,7 +9079,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "MED",
-    "price": 8100000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -9088,7 +9088,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "MED",
-    "price": 5100000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -9106,7 +9106,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "DEF",
-    "price": 5400000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -9115,7 +9115,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "DEF",
-    "price": 6300000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -9124,7 +9124,7 @@ export const PLAYERS = [
     "country": "Senegal",
     "teamCode": "SEN",
     "position": "MED",
-    "price": 10300000,
+    "price": 8600000,
     "points": 0
   },
   {
@@ -9142,7 +9142,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEF",
-    "price": 4900000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -9151,7 +9151,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEF",
-    "price": 4500000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -9160,7 +9160,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "MED",
-    "price": 9400000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -9169,7 +9169,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "MED",
-    "price": 7000000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -9178,7 +9178,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEF",
-    "price": 6100000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -9187,7 +9187,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEL",
-    "price": 9600000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -9196,7 +9196,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEL",
-    "price": 6500000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -9205,7 +9205,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEL",
-    "price": 10300000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -9214,7 +9214,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEL",
-    "price": 5900000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -9223,7 +9223,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "MED",
-    "price": 4400000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -9232,7 +9232,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEL",
-    "price": 5900000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -9241,7 +9241,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "MED",
-    "price": 6500000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -9250,7 +9250,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEF",
-    "price": 4500000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -9259,7 +9259,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEL",
-    "price": 7100000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -9268,7 +9268,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "POR",
-    "price": 4300000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -9277,7 +9277,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEL",
-    "price": 8800000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -9286,7 +9286,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEF",
-    "price": 4500000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -9295,7 +9295,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEF",
-    "price": 4600000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -9304,7 +9304,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEF",
-    "price": 5200000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -9313,7 +9313,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEF",
-    "price": 5100000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -9331,7 +9331,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "MED",
-    "price": 6600000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -9340,7 +9340,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEF",
-    "price": 4400000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -9349,7 +9349,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEL",
-    "price": 5900000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -9358,7 +9358,7 @@ export const PLAYERS = [
     "country": "South Africa",
     "teamCode": "RSA",
     "position": "DEF",
-    "price": 4900000,
+    "price": 4400000,
     "points": 0
   },
   {
@@ -9367,7 +9367,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "POR",
-    "price": 5500000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -9376,7 +9376,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "DEF",
-    "price": 6000000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -9385,7 +9385,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "DEF",
-    "price": 6000000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -9403,7 +9403,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "DEF",
-    "price": 6300000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -9412,7 +9412,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "MED",
-    "price": 11600000,
+    "price": 9300000,
     "points": 0
   },
   {
@@ -9421,7 +9421,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "DEL",
-    "price": 18000000,
+    "price": 14800000,
     "points": 0
   },
   {
@@ -9430,7 +9430,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "MED",
-    "price": 9900000,
+    "price": 8500000,
     "points": 0
   },
   {
@@ -9439,7 +9439,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "MED",
-    "price": 9800000,
+    "price": 8600000,
     "points": 0
   },
   {
@@ -9448,7 +9448,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "DEL",
-    "price": 14600000,
+    "price": 11500000,
     "points": 0
   },
   {
@@ -9457,7 +9457,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "DEL",
-    "price": 9700000,
+    "price": 8800000,
     "points": 0
   },
   {
@@ -9466,7 +9466,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "DEF",
-    "price": 7200000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -9475,7 +9475,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "POR",
-    "price": 6100000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -9484,7 +9484,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "DEF",
-    "price": 6500000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -9493,7 +9493,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "MED",
-    "price": 9000000,
+    "price": 8500000,
     "points": 0
   },
   {
@@ -9502,7 +9502,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "MED",
-    "price": 9600000,
+    "price": 8400000,
     "points": 0
   },
   {
@@ -9511,7 +9511,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "DEL",
-    "price": 10800000,
+    "price": 9300000,
     "points": 0
   },
   {
@@ -9520,7 +9520,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "MED",
-    "price": 9700000,
+    "price": 8900000,
     "points": 0
   },
   {
@@ -9529,7 +9529,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "DEL",
-    "price": 9600000,
+    "price": 8300000,
     "points": 0
   },
   {
@@ -9538,7 +9538,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "MED",
-    "price": 10500000,
+    "price": 8900000,
     "points": 0
   },
   {
@@ -9547,7 +9547,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "DEL",
-    "price": 17100000,
+    "price": 14300000,
     "points": 0
   },
   {
@@ -9556,7 +9556,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "DEF",
-    "price": 5600000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -9565,7 +9565,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "POR",
-    "price": 7700000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -9574,7 +9574,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "DEF",
-    "price": 8000000,
+    "price": 7700000,
     "points": 0
   },
   {
@@ -9592,7 +9592,7 @@ export const PLAYERS = [
     "country": "Spain",
     "teamCode": "ESP",
     "position": "DEL",
-    "price": 5700000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -9610,7 +9610,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "DEF",
-    "price": 7000000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -9619,7 +9619,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "DEF",
-    "price": 7600000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -9628,7 +9628,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "DEF",
-    "price": 6400000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -9637,7 +9637,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "DEF",
-    "price": 6300000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -9655,7 +9655,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "MED",
-    "price": 5100000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -9664,7 +9664,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "DEF",
-    "price": 5900000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -9673,7 +9673,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "DEL",
-    "price": 15300000,
+    "price": 10800000,
     "points": 0
   },
   {
@@ -9682,7 +9682,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "MED",
-    "price": 8000000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -9691,7 +9691,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "DEL",
-    "price": 10000000,
+    "price": 8300000,
     "points": 0
   },
   {
@@ -9700,7 +9700,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "POR",
-    "price": 5400000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -9709,7 +9709,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "MED",
-    "price": 6400000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -9718,7 +9718,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "DEF",
-    "price": 5900000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -9727,7 +9727,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "DEF",
-    "price": 5100000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -9736,7 +9736,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "MED",
-    "price": 5700000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -9745,7 +9745,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "DEL",
-    "price": 15600000,
+    "price": 10700000,
     "points": 0
   },
   {
@@ -9754,7 +9754,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "MED",
-    "price": 8100000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -9763,7 +9763,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "MED",
-    "price": 8500000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -9781,7 +9781,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "DEF",
-    "price": 5900000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -9790,7 +9790,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "MED",
-    "price": 5600000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -9808,7 +9808,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "DEF",
-    "price": 5600000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -9817,7 +9817,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "DEL",
-    "price": 8800000,
+    "price": 7500000,
     "points": 0
   },
   {
@@ -9826,7 +9826,7 @@ export const PLAYERS = [
     "country": "Sweden",
     "teamCode": "SWE",
     "position": "DEL",
-    "price": 6600000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -9835,7 +9835,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "POR",
-    "price": 5600000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -9844,7 +9844,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEF",
-    "price": 5800000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -9853,7 +9853,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEF",
-    "price": 6700000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -9862,7 +9862,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEF",
-    "price": 8600000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -9871,7 +9871,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEF",
-    "price": 8400000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -9880,7 +9880,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "MED",
-    "price": 9000000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -9889,7 +9889,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEL",
-    "price": 17100000,
+    "price": 11800000,
     "points": 0
   },
   {
@@ -9898,7 +9898,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "MED",
-    "price": 7300000,
+    "price": 5300000,
     "points": 0
   },
   {
@@ -9907,7 +9907,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "MED",
-    "price": 6700000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -9916,7 +9916,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "MED",
-    "price": 12100000,
+    "price": 8200000,
     "points": 0
   },
   {
@@ -9925,7 +9925,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEL",
-    "price": 11300000,
+    "price": 8700000,
     "points": 0
   },
   {
@@ -9943,7 +9943,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEF",
-    "price": 9500000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -9952,7 +9952,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "MED",
-    "price": 5900000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -9961,7 +9961,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "MED",
-    "price": 7500000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -9970,7 +9970,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEL",
-    "price": 6900000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -9979,7 +9979,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEL",
-    "price": 13200000,
+    "price": 9700000,
     "points": 0
   },
   {
@@ -9988,7 +9988,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEF",
-    "price": 6100000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -9997,7 +9997,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEL",
-    "price": 8500000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -10006,7 +10006,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "MED",
-    "price": 8000000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -10015,7 +10015,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "POR",
-    "price": 4700000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -10024,7 +10024,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "MED",
-    "price": 7600000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -10033,7 +10033,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEL",
-    "price": 12700000,
+    "price": 9300000,
     "points": 0
   },
   {
@@ -10042,7 +10042,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEF",
-    "price": 5300000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -10051,7 +10051,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEF",
-    "price": 5200000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -10060,7 +10060,7 @@ export const PLAYERS = [
     "country": "Switzerland",
     "teamCode": "SUI",
     "position": "DEL",
-    "price": 9400000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -10078,7 +10078,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "DEF",
-    "price": 6800000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -10087,7 +10087,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "DEF",
-    "price": 8600000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -10096,7 +10096,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "DEF",
-    "price": 6400000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -10114,7 +10114,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "DEF",
-    "price": 6700000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -10123,7 +10123,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "DEL",
-    "price": 9600000,
+    "price": 8100000,
     "points": 0
   },
   {
@@ -10132,7 +10132,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "DEL",
-    "price": 8500000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -10141,7 +10141,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "DEL",
-    "price": 8500000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -10150,7 +10150,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "MED",
-    "price": 7000000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -10159,7 +10159,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "MED",
-    "price": 6800000,
+    "price": 6100000,
     "points": 0
   },
   {
@@ -10168,7 +10168,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "DEF",
-    "price": 5100000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -10195,7 +10195,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "MED",
-    "price": 6300000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -10204,7 +10204,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "POR",
-    "price": 5800000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -10213,7 +10213,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "MED",
-    "price": 8500000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -10231,7 +10231,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "DEL",
-    "price": 8500000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -10240,7 +10240,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "DEF",
-    "price": 6200000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -10249,7 +10249,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "DEF",
-    "price": 5000000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -10267,7 +10267,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "DEF",
-    "price": 5100000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -10285,7 +10285,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "MED",
-    "price": 8900000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -10294,7 +10294,7 @@ export const PLAYERS = [
     "country": "Tunisia",
     "teamCode": "TUN",
     "position": "MED",
-    "price": 6200000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -10312,7 +10312,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEF",
-    "price": 8100000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -10321,7 +10321,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEF",
-    "price": 9300000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -10330,7 +10330,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEF",
-    "price": 6900000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -10339,7 +10339,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "MED",
-    "price": 7000000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -10348,7 +10348,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "MED",
-    "price": 9100000,
+    "price": 7700000,
     "points": 0
   },
   {
@@ -10357,7 +10357,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEL",
-    "price": 14000000,
+    "price": 10200000,
     "points": 0
   },
   {
@@ -10366,7 +10366,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEL",
-    "price": 9000000,
+    "price": 7500000,
     "points": 0
   },
   {
@@ -10375,7 +10375,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEL",
-    "price": 7200000,
+    "price": 6600000,
     "points": 0
   },
   {
@@ -10384,7 +10384,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "MED",
-    "price": 12200000,
+    "price": 8200000,
     "points": 0
   },
   {
@@ -10393,7 +10393,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEL",
-    "price": 8600000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -10402,7 +10402,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "POR",
-    "price": 5100000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -10411,7 +10411,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEF",
-    "price": 6200000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -10420,7 +10420,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEF",
-    "price": 6100000,
+    "price": 5500000,
     "points": 0
   },
   {
@@ -10429,7 +10429,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEF",
-    "price": 7300000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -10438,7 +10438,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "MED",
-    "price": 7400000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -10447,7 +10447,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEL",
-    "price": 8800000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -10456,7 +10456,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEF",
-    "price": 8100000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -10465,7 +10465,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEL",
-    "price": 9000000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -10474,7 +10474,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEF",
-    "price": 7300000,
+    "price": 6500000,
     "points": 0
   },
   {
@@ -10483,7 +10483,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEL",
-    "price": 9300000,
+    "price": 8000000,
     "points": 0
   },
   {
@@ -10492,7 +10492,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "MED",
-    "price": 8600000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -10501,7 +10501,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "POR",
-    "price": 5300000,
+    "price": 4900000,
     "points": 0
   },
   {
@@ -10510,7 +10510,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEL",
-    "price": 6800000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -10519,7 +10519,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEF",
-    "price": 4600000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -10528,7 +10528,7 @@ export const PLAYERS = [
     "country": "Türkiye",
     "teamCode": "TUR",
     "position": "DEL",
-    "price": 6000000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -10537,7 +10537,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "POR",
-    "price": 4500000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -10546,7 +10546,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "DEF",
-    "price": 10300000,
+    "price": 8100000,
     "points": 0
   },
   {
@@ -10555,7 +10555,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "DEF",
-    "price": 6600000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -10564,7 +10564,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "DEF",
-    "price": 7200000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -10573,7 +10573,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "MED",
-    "price": 7900000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -10582,7 +10582,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "MED",
-    "price": 9400000,
+    "price": 8200000,
     "points": 0
   },
   {
@@ -10591,7 +10591,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "MED",
-    "price": 9200000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -10600,7 +10600,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "MED",
-    "price": 12300000,
+    "price": 9700000,
     "points": 0
   },
   {
@@ -10609,7 +10609,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "DEL",
-    "price": 13800000,
+    "price": 10500000,
     "points": 0
   },
   {
@@ -10618,7 +10618,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "MED",
-    "price": 9600000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -10627,7 +10627,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "DEL",
-    "price": 9000000,
+    "price": 8300000,
     "points": 0
   },
   {
@@ -10645,7 +10645,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "DEF",
-    "price": 4700000,
+    "price": 4600000,
     "points": 0
   },
   {
@@ -10654,7 +10654,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "MED",
-    "price": 7400000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -10672,7 +10672,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "DEF",
-    "price": 7400000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -10681,7 +10681,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "DEF",
-    "price": 7200000,
+    "price": 6700000,
     "points": 0
   },
   {
@@ -10690,7 +10690,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "DEL",
-    "price": 9700000,
+    "price": 8600000,
     "points": 0
   },
   {
@@ -10699,7 +10699,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "DEL",
-    "price": 7700000,
+    "price": 7000000,
     "points": 0
   },
   {
@@ -10708,7 +10708,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "MED",
-    "price": 8600000,
+    "price": 7700000,
     "points": 0
   },
   {
@@ -10717,7 +10717,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "DEL",
-    "price": 8000000,
+    "price": 7500000,
     "points": 0
   },
   {
@@ -10726,7 +10726,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "MED",
-    "price": 7000000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -10753,7 +10753,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "MED",
-    "price": 7400000,
+    "price": 7100000,
     "points": 0
   },
   {
@@ -10762,7 +10762,7 @@ export const PLAYERS = [
     "country": "Uruguay",
     "teamCode": "URU",
     "position": "MED",
-    "price": 8100000,
+    "price": 7400000,
     "points": 0
   },
   {
@@ -10771,7 +10771,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "POR",
-    "price": 4900000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -10780,7 +10780,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEF",
-    "price": 8400000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -10789,7 +10789,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEF",
-    "price": 8300000,
+    "price": 7200000,
     "points": 0
   },
   {
@@ -10798,7 +10798,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "MED",
-    "price": 8900000,
+    "price": 7800000,
     "points": 0
   },
   {
@@ -10807,7 +10807,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEF",
-    "price": 9200000,
+    "price": 7500000,
     "points": 0
   },
   {
@@ -10816,7 +10816,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEF",
-    "price": 6100000,
+    "price": 5900000,
     "points": 0
   },
   {
@@ -10825,7 +10825,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "MED",
-    "price": 10800000,
+    "price": 8200000,
     "points": 0
   },
   {
@@ -10834,7 +10834,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "MED",
-    "price": 13400000,
+    "price": 9900000,
     "points": 0
   },
   {
@@ -10843,7 +10843,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEL",
-    "price": 12400000,
+    "price": 9200000,
     "points": 0
   },
   {
@@ -10852,7 +10852,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEL",
-    "price": 18000000,
+    "price": 14400000,
     "points": 0
   },
   {
@@ -10861,7 +10861,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEL",
-    "price": 12500000,
+    "price": 9700000,
     "points": 0
   },
   {
@@ -10870,7 +10870,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEF",
-    "price": 8000000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -10888,7 +10888,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "MED",
-    "price": 7400000,
+    "price": 6900000,
     "points": 0
   },
   {
@@ -10897,7 +10897,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "MED",
-    "price": 6700000,
+    "price": 6200000,
     "points": 0
   },
   {
@@ -10906,7 +10906,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEF",
-    "price": 6700000,
+    "price": 6000000,
     "points": 0
   },
   {
@@ -10915,7 +10915,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "MED",
-    "price": 8700000,
+    "price": 7600000,
     "points": 0
   },
   {
@@ -10924,7 +10924,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEF",
-    "price": 7000000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -10933,7 +10933,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEL",
-    "price": 10500000,
+    "price": 8500000,
     "points": 0
   },
   {
@@ -10942,7 +10942,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEL",
-    "price": 12900000,
+    "price": 9800000,
     "points": 0
   },
   {
@@ -10951,7 +10951,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEL",
-    "price": 11500000,
+    "price": 9200000,
     "points": 0
   },
   {
@@ -10960,7 +10960,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEF",
-    "price": 6800000,
+    "price": 6400000,
     "points": 0
   },
   {
@@ -10969,7 +10969,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEF",
-    "price": 6000000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -10978,7 +10978,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "POR",
-    "price": 5800000,
+    "price": 5600000,
     "points": 0
   },
   {
@@ -10987,7 +10987,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "POR",
-    "price": 4800000,
+    "price": 4700000,
     "points": 0
   },
   {
@@ -10996,7 +10996,7 @@ export const PLAYERS = [
     "country": "USA",
     "teamCode": "USA",
     "position": "DEL",
-    "price": 8000000,
+    "price": 7300000,
     "points": 0
   },
   {
@@ -11014,7 +11014,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "DEF",
-    "price": 5000000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -11023,7 +11023,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "DEF",
-    "price": 6900000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -11041,7 +11041,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "DEF",
-    "price": 6200000,
+    "price": 5000000,
     "points": 0
   },
   {
@@ -11050,7 +11050,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "MED",
-    "price": 6300000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -11059,7 +11059,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "MED",
-    "price": 9300000,
+    "price": 6300000,
     "points": 0
   },
   {
@@ -11068,7 +11068,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "MED",
-    "price": 5500000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -11077,7 +11077,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "MED",
-    "price": 6500000,
+    "price": 5100000,
     "points": 0
   },
   {
@@ -11086,7 +11086,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "MED",
-    "price": 8400000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -11095,7 +11095,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "MED",
-    "price": 10000000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -11104,7 +11104,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "POR",
-    "price": 4800000,
+    "price": 4100000,
     "points": 0
   },
   {
@@ -11113,7 +11113,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "DEF",
-    "price": 6600000,
+    "price": 5200000,
     "points": 0
   },
   {
@@ -11122,7 +11122,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "DEL",
-    "price": 15300000,
+    "price": 10400000,
     "points": 0
   },
   {
@@ -11131,7 +11131,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "DEF",
-    "price": 4100000,
+    "price": 4000000,
     "points": 0
   },
   {
@@ -11149,7 +11149,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "MED",
-    "price": 7700000,
+    "price": 5700000,
     "points": 0
   },
   {
@@ -11158,7 +11158,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "DEF",
-    "price": 5300000,
+    "price": 4500000,
     "points": 0
   },
   {
@@ -11167,7 +11167,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "MED",
-    "price": 5600000,
+    "price": 4800000,
     "points": 0
   },
   {
@@ -11176,7 +11176,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "DEL",
-    "price": 6700000,
+    "price": 5400000,
     "points": 0
   },
   {
@@ -11185,7 +11185,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "DEL",
-    "price": 11400000,
+    "price": 6800000,
     "points": 0
   },
   {
@@ -11194,7 +11194,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "MED",
-    "price": 8200000,
+    "price": 5800000,
     "points": 0
   },
   {
@@ -11203,7 +11203,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "MED",
-    "price": 4800000,
+    "price": 4200000,
     "points": 0
   },
   {
@@ -11221,7 +11221,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "DEF",
-    "price": 4800000,
+    "price": 4300000,
     "points": 0
   },
   {
@@ -11230,7 +11230,7 @@ export const PLAYERS = [
     "country": "Uzbekistan",
     "teamCode": "UZB",
     "position": "DEF",
-    "price": 4700000,
+    "price": 4000000,
     "points": 0
   }
 ];
