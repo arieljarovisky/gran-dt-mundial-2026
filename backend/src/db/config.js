@@ -15,8 +15,8 @@ function parseDatabaseUrl(url) {
 
 export function getDbConfig({ withDatabase = true } = {}) {
   const url =
-    process.env.MYSQL_PUBLIC_URL ||
     process.env.MYSQL_URL ||
+    process.env.MYSQL_PUBLIC_URL ||
     process.env.DATABASE_URL;
 
   let config;
@@ -63,9 +63,12 @@ function applySsl(config) {
     config.host !== 'localhost' &&
     config.host !== '127.0.0.1';
 
+  const isRailwayInternal = config.host?.includes('.railway.internal');
+
   const sslEnabled =
-    process.env.DB_SSL === 'true' ||
-    (isRemote && process.env.DB_SSL !== 'false');
+    !isRailwayInternal &&
+    (process.env.DB_SSL === 'true' ||
+      (isRemote && process.env.DB_SSL !== 'false'));
 
   if (sslEnabled) {
     return { ...config, ssl: { rejectUnauthorized: false } };
@@ -76,8 +79,8 @@ function applySsl(config) {
 
 export function getDbName() {
   const url =
-    process.env.MYSQL_PUBLIC_URL ||
     process.env.MYSQL_URL ||
+    process.env.MYSQL_PUBLIC_URL ||
     process.env.DATABASE_URL;
 
   if (url?.startsWith('mysql://')) {
